@@ -1,0 +1,763 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/dqv" ],
+    "iri" : "http://mappingQualityVocabulary/metrics#",
+    "comments" : {
+      "en" : "The Mapping Quality Vocabulary (MQV) metrics represent the mapping quality metrics used by the MQV."
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/ns/dqv#Dimension",
+    "baseIri" : "http://www.w3.org/ns/dqv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dimension"
+    },
+    "individuals" : [ {
+      "iri" : "http://mappingQualityVocabulary/metrics#dataConsistency",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Data Consistency",
+          "type" : "label"
+        } ],
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dataConsistency",
+        "en" : "Data Consistency"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#licensing",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Licensing",
+          "type" : "label"
+        } ],
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "licensing",
+        "en" : "Licensing"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#trustworthiness",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Trustworthiness",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "trustworthiness",
+        "en" : "Trustworthiness"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#understandability",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Understandability",
+          "type" : "label"
+        } ],
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "understandability",
+        "en" : "Understandability"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#availability",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Availability",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Availability of a dataset is the extent to which data (or some portion of it) is present, obtainable and ready for use.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "availability",
+        "en" : "Availability"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#interpretability",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Interpretability",
+          "type" : "label"
+        } ],
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "interpretability",
+        "en" : "Interpretability"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#representationalConciseness",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Representational Conciseness",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "representationalConciseness",
+        "en" : "Representational Conciseness"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#RDFtermCorrectness",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "RDF term correctness",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "RDF term correctness is the extent to which a mapping correctly defines RDF terms.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RDFtermCorrectness",
+        "en" : "RDF term correctness"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Mapping Consistency",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "mappingConsistency",
+        "en" : "Mapping Consistency"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3.org/ns/dqv#Metric",
+    "baseIri" : "http://www.w3.org/ns/dqv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metric"
+    },
+    "individuals" : [ {
+      "iri" : "http://mappingQualityVocabulary/metrics#VOC3",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Allows the licensing information to be queried by machines.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Allows the licensing information to be queried by machines."
+      },
+      "labels" : {
+        "IRI-based" : "VOC3",
+        "en" : "VOC3"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#VOC2",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Consumers need to understand where the data has originated.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Consumers need to understand where the data has originated."
+      },
+      "labels" : {
+        "IRI-based" : "VOC2",
+        "en" : "VOC2"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#VOC1",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Humans consuming the information should be able to understand the Linked Data Resource.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Humans consuming the information should be able to understand the Linked Data Resource."
+      },
+      "labels" : {
+        "IRI-based" : "VOC1",
+        "en" : "VOC1"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP5",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Subject definitions must be valid URIs unless its type is defined as blank node.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Subject definitions must be valid URIs unless its type is defined as blank node."
+      },
+      "labels" : {
+        "IRI-based" : "MP5",
+        "en" : "MP5"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#D5",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Individuals of one class cannot be simultaneously members of another class.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Individuals of one class cannot be simultaneously members of another class."
+      },
+      "labels" : {
+        "IRI-based" : "D5",
+        "en" : "D5"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#D4",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "The use of query parameters is not parameters in recommended by the W3C best practices for URIs.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."
+      },
+      "labels" : {
+        "IRI-based" : "D4",
+        "en" : "D4"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP6",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Valid language tags are defined as per RFC 5646 (BCP 47).",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Valid language tags are defined as per RFC 5646 (BCP 47)."
+      },
+      "labels" : {
+        "IRI-based" : "MP6",
+        "en" : "MP6"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP7",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "A join condition must have a child column.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "A join condition must have a child column."
+      },
+      "labels" : {
+        "IRI-based" : "MP7",
+        "en" : "MP7"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#D3",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "The class type defined in the subject map does not  include the domain for this property.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The class type defined in the subject map does not  include the domain for this property."
+      },
+      "labels" : {
+        "IRI-based" : "D3",
+        "en" : "D3"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP8",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "A join condition must have a parent column.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "A join condition must have a parent column."
+      },
+      "labels" : {
+        "IRI-based" : "MP8",
+        "en" : "MP8"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#D2",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Properties are considered undefined when it is not possible to dereference them against their namespace.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Properties are considered undefined when it is not possible to dereference them against their namespace."
+      },
+      "labels" : {
+        "IRI-based" : "D2",
+        "en" : "D2"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#D1",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Classes are considered undefined when it is not possible to dereference them against their namespace.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Classes are considered undefined when it is not possible to dereference them against their namespace."
+      },
+      "labels" : {
+        "IRI-based" : "D1",
+        "en" : "D1"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP1",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Objects maps with literal values may refer to only one datatype and no language tags.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Objects maps with literal values may refer to only one datatype and no language tags."
+      },
+      "labels" : {
+        "IRI-based" : "MP1",
+        "en" : "M1"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP2",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "The term type for a Subject map must be an rr:IRI or an rr:BlankNode.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The term type for a Subject map must be an rr:IRI or an rr:BlankNode."
+      },
+      "labels" : {
+        "IRI-based" : "MP2",
+        "en" : "MP2"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#D7",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "The datatype assigned to the object does not match the datatype range for this property.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The datatype assigned to the object does not match the datatype range for this property."
+      },
+      "labels" : {
+        "IRI-based" : "D7",
+        "en" : "D7"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP3",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "The term type for a Predicate map must an rr:IRI.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The term type for a Predicate map must an rr:IRI."
+      },
+      "labels" : {
+        "IRI-based" : "MP3",
+        "en" : "MP3"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#VOC5",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Ensuring the resources are retrievable is one of the main principles of Linked Data.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Ensuring the resources are retrievable is one of the main principles of Linked Data."
+      },
+      "labels" : {
+        "IRI-based" : "VOC5",
+        "en" : "VOC5"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP4",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."
+      },
+      "labels" : {
+        "IRI-based" : "MP4",
+        "en" : "MP4"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#VOC4",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Allows humans to read and understand license in a textual format.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Allows humans to read and understand license in a textual format."
+      },
+      "labels" : {
+        "IRI-based" : "VOC4",
+        "en" : "VOC4"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#D6",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."
+      },
+      "labels" : {
+        "IRI-based" : "D6",
+        "en" : "D6"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  } ]
+}
