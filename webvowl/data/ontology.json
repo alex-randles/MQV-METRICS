@@ -27,17 +27,17 @@
       "iri" : "http://mappingQualityVocabulary/metrics#dataConsistency",
       "baseIri" : "http://mappingQualityVocabulary/metrics",
       "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Data Consistency",
-          "type" : "label"
-        } ],
         "inCategory" : [ {
           "identifier" : "inCategory",
           "language" : "undefined",
           "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
           "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Data Consistency",
+          "type" : "label"
         } ],
         "definition" : [ {
           "identifier" : "definition",
@@ -49,6 +49,33 @@
       "labels" : {
         "IRI-based" : "dataConsistency",
         "en" : "Data Consistency"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#trustworthiness",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Trustworthiness",
+          "type" : "label"
+        } ],
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "trustworthiness",
+        "en" : "Trustworthiness"
       }
     }, {
       "iri" : "http://mappingQualityVocabulary/metrics#licensing",
@@ -78,7 +105,7 @@
         "en" : "Licensing"
       }
     }, {
-      "iri" : "http://mappingQualityVocabulary/metrics#trustworthiness",
+      "iri" : "http://mappingQualityVocabulary/metrics#understandability",
       "baseIri" : "http://mappingQualityVocabulary/metrics",
       "annotations" : {
         "inCategory" : [ {
@@ -87,38 +114,11 @@
           "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
           "type" : "iri"
         } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Trustworthiness",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'.",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "trustworthiness",
-        "en" : "Trustworthiness"
-      }
-    }, {
-      "iri" : "http://mappingQualityVocabulary/metrics#understandability",
-      "baseIri" : "http://mappingQualityVocabulary/metrics",
-      "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Understandability",
           "type" : "label"
-        } ],
-        "inCategory" : [ {
-          "identifier" : "inCategory",
-          "language" : "undefined",
-          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
-          "type" : "iri"
         } ],
         "definition" : [ {
           "identifier" : "definition",
@@ -162,17 +162,17 @@
       "iri" : "http://mappingQualityVocabulary/metrics#interpretability",
       "baseIri" : "http://mappingQualityVocabulary/metrics",
       "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Interpretability",
-          "type" : "label"
-        } ],
         "inCategory" : [ {
           "identifier" : "inCategory",
           "language" : "undefined",
           "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
           "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Interpretability",
+          "type" : "label"
         } ],
         "definition" : [ {
           "identifier" : "definition",
@@ -189,17 +189,17 @@
       "iri" : "http://mappingQualityVocabulary/metrics#representationalConciseness",
       "baseIri" : "http://mappingQualityVocabulary/metrics",
       "annotations" : {
-        "inCategory" : [ {
-          "identifier" : "inCategory",
-          "language" : "undefined",
-          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
-          "type" : "iri"
-        } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Representational Conciseness",
           "type" : "label"
+        } ],
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
         } ],
         "definition" : [ {
           "identifier" : "definition",
@@ -211,33 +211,6 @@
       "labels" : {
         "IRI-based" : "representationalConciseness",
         "en" : "Representational Conciseness"
-      }
-    }, {
-      "iri" : "http://mappingQualityVocabulary/metrics#RDFtermCorrectness",
-      "baseIri" : "http://mappingQualityVocabulary/metrics",
-      "annotations" : {
-        "inCategory" : [ {
-          "identifier" : "inCategory",
-          "language" : "undefined",
-          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "RDF term correctness",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "RDF term correctness is the extent to which a mapping correctly defines RDF terms.",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "RDFtermCorrectness",
-        "en" : "RDF term correctness"
       }
     }, {
       "iri" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
@@ -265,6 +238,33 @@
       "labels" : {
         "IRI-based" : "mappingConsistency",
         "en" : "Mapping Consistency"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#RDFtermCorrectness",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "RDF term correctness",
+          "type" : "label"
+        } ],
+        "inCategory" : [ {
+          "identifier" : "inCategory",
+          "language" : "undefined",
+          "value" : "http://www.semanticweb.org/owl/owlapi/turtle#accessibility",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "RDF term correctness is the extent to which a mapping correctly defines RDF terms.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RDFtermCorrectness",
+        "en" : "RDF term correctness"
       }
     } ],
     "attributes" : [ "external" ],
@@ -445,30 +445,6 @@
         "en" : "MP6"
       }
     }, {
-      "iri" : "http://mappingQualityVocabulary/metrics#MP7",
-      "baseIri" : "http://mappingQualityVocabulary/metrics",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://mappingQualityVocabulary/metrics#",
-          "type" : "iri"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "A join condition must have a child column.",
-          "type" : "label"
-        } ]
-      },
-      "comment" : {
-        "en" : "A join condition must have a child column."
-      },
-      "labels" : {
-        "IRI-based" : "MP7",
-        "en" : "MP7"
-      }
-    }, {
       "iri" : "http://mappingQualityVocabulary/metrics#D3",
       "baseIri" : "http://mappingQualityVocabulary/metrics",
       "annotations" : {
@@ -491,6 +467,30 @@
       "labels" : {
         "IRI-based" : "D3",
         "en" : "D3"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#MP7",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "A join condition must have a child column.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "A join condition must have a child column."
+      },
+      "labels" : {
+        "IRI-based" : "MP7",
+        "en" : "MP7"
       }
     }, {
       "iri" : "http://mappingQualityVocabulary/metrics#MP8",
@@ -613,30 +613,6 @@
         "en" : "MP2"
       }
     }, {
-      "iri" : "http://mappingQualityVocabulary/metrics#D7",
-      "baseIri" : "http://mappingQualityVocabulary/metrics",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://mappingQualityVocabulary/metrics#",
-          "type" : "iri"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "The datatype assigned to the object does not match the datatype range for this property.",
-          "type" : "label"
-        } ]
-      },
-      "comment" : {
-        "en" : "The datatype assigned to the object does not match the datatype range for this property."
-      },
-      "labels" : {
-        "IRI-based" : "D7",
-        "en" : "D7"
-      }
-    }, {
       "iri" : "http://mappingQualityVocabulary/metrics#MP3",
       "baseIri" : "http://mappingQualityVocabulary/metrics",
       "annotations" : {
@@ -683,6 +659,30 @@
       "labels" : {
         "IRI-based" : "VOC5",
         "en" : "VOC5"
+      }
+    }, {
+      "iri" : "http://mappingQualityVocabulary/metrics#D7",
+      "baseIri" : "http://mappingQualityVocabulary/metrics",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://mappingQualityVocabulary/metrics#",
+          "type" : "iri"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "The datatype assigned to the object does not match the datatype range for this property.",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The datatype assigned to the object does not match the datatype range for this property."
+      },
+      "labels" : {
+        "IRI-based" : "D7",
+        "en" : "D7"
       }
     }, {
       "iri" : "http://mappingQualityVocabulary/metrics#MP4",
