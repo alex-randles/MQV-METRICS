@@ -1,11 +1,19 @@
 <h2 id="crossreference" class="list">Cross reference for Mapping Quality Vocabulary (MQV) Metrics classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 This section provides details for each class and property defined by Mapping Quality Vocabulary (MQV) Metrics.
-<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
-   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
+         <a href="#accessibility"
+            title="http://mappingQualityVocabulary/metrics#accessibility">accessibility</a>
+      </li>
+      <li>
          <a href="#availability"
-            title="http://mappingQualityVocabulary/metrics#availability">Availability</a>
+            title="http://mappingQualityVocabulary/metrics#availability">availability</a>
+      </li>
+      <li>
+         <a href="#contextual"
+            title="http://mappingQualityVocabulary/metrics#contextual">contextual</a>
       </li>
       <li>
          <a href="#D1" title="http://mappingQualityVocabulary/metrics#D1">D1</a>
@@ -30,22 +38,26 @@ This section provides details for each class and property defined by Mapping Qua
       </li>
       <li>
          <a href="#dataConsistency"
-            title="http://mappingQualityVocabulary/metrics#dataConsistency">Data Consistency</a>
+            title="http://mappingQualityVocabulary/metrics#dataConsistency">dataConsistency</a>
       </li>
       <li>
          <a href="#interpretability"
-            title="http://mappingQualityVocabulary/metrics#interpretability">Interpretability</a>
+            title="http://mappingQualityVocabulary/metrics#interpretability">interpretability</a>
+      </li>
+      <li>
+         <a href="#intrinsic"
+            title="http://mappingQualityVocabulary/metrics#intrinsic">intrinsic</a>
       </li>
       <li>
          <a href="#licensing"
-            title="http://mappingQualityVocabulary/metrics#licensing">Licensing</a>
-      </li>
-      <li>
-         <a href="#MP1" title="http://mappingQualityVocabulary/metrics#MP1">M1</a>
+            title="http://mappingQualityVocabulary/metrics#licensing">licensing</a>
       </li>
       <li>
          <a href="#mappingConsistency"
-            title="http://mappingQualityVocabulary/metrics#mappingConsistency">Mapping Consistency</a>
+            title="http://mappingQualityVocabulary/metrics#mappingConsistency">mappingConsistency</a>
+      </li>
+      <li>
+         <a href="#MP1" title="http://mappingQualityVocabulary/metrics#MP1">MP1</a>
       </li>
       <li>
          <a href="#MP2" title="http://mappingQualityVocabulary/metrics#MP2">MP2</a>
@@ -69,20 +81,20 @@ This section provides details for each class and property defined by Mapping Qua
          <a href="#MP8" title="http://mappingQualityVocabulary/metrics#MP8">MP8</a>
       </li>
       <li>
-         <a href="#RDFtermCorrectness"
-            title="http://mappingQualityVocabulary/metrics#RDFtermCorrectness">RDF term correctness</a>
+         <a href="#representational"
+            title="http://mappingQualityVocabulary/metrics#representational">representational</a>
       </li>
       <li>
          <a href="#representationalConciseness"
-            title="http://mappingQualityVocabulary/metrics#representationalConciseness">Representational Conciseness</a>
+            title="http://mappingQualityVocabulary/metrics#representationalConciseness">representationalConciseness</a>
       </li>
       <li>
          <a href="#trustworthiness"
-            title="http://mappingQualityVocabulary/metrics#trustworthiness">Trustworthiness</a>
+            title="http://mappingQualityVocabulary/metrics#trustworthiness">trustworthiness</a>
       </li>
       <li>
          <a href="#understandability"
-            title="http://mappingQualityVocabulary/metrics#understandability">Understandability</a>
+            title="http://mappingQualityVocabulary/metrics#understandability">understandability</a>
       </li>
       <li>
          <a href="#VOC1" title="http://mappingQualityVocabulary/metrics#VOC1">VOC1</a>
@@ -100,29 +112,69 @@ This section provides details for each class and property defined by Mapping Qua
          <a href="#VOC5" title="http://mappingQualityVocabulary/metrics#VOC5">VOC5</a>
       </li>
    </ul>
+   <div class="entity" id="accessibility">
+      <h3>accessibility<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://mappingQualityVocabulary/metrics#accessibility</p>
+      <div class="comment">
+         <span class="markdown">The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data </span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/dqv#Category"
+               target="_blank"
+               title="http://www.w3.org/ns/dqv#Category">category</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="availability">
-      <h3>Availability<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>availability<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> http://mappingQualityVocabulary/metrics#availability</p>
       <div class="comment">
-         <span class="markdown">Availability of a dataset is the extent to which data (or some portion of it) is present, obtainable and ready for use.</span>
+         <span class="markdown">Availability of a dataset &lt;http://www.w3.org/ns/dqv#Metric&gt;is the extent to which data (or some portion of it) is present, obtainable and ready for use.</span>
       </div>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
+            <a href="http://www.w3.org/ns/dqv#Dimension"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Dimension">dimension</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="contextual">
+      <h3>contextual<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://mappingQualityVocabulary/metrics#contextual</p>
+      <div class="comment">
+         <span class="markdown">The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/dqv#Category"
+               target="_blank"
+               title="http://www.w3.org/ns/dqv#Category">category</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="D1">
-      <h3>D1<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>D1<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -137,18 +189,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="D2">
-      <h3>D2<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>D2<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -163,18 +215,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="D3">
-      <h3>D3<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>D3<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -189,17 +241,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
+            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="D4">
-      <h3>D4<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>D4<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -214,18 +267,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="D5">
-      <h3>D5<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>D5<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -240,18 +293,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="D6">
-      <h3>D6<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>D6<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -266,18 +319,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="D7">
-      <h3>D7<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>D7<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -292,18 +345,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="dataConsistency">
-      <h3>Data Consistency<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>dataConsistency<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -312,18 +365,18 @@ This section provides details for each class and property defined by Mapping Qua
          <span class="markdown">Data Consistency is the extent to which a dataset will be generated with no conflicting information.</span>
       </div>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
+            <a href="http://www.w3.org/ns/dqv#Dimension"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Dimension">dimension</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="interpretability">
-      <h3>Interpretability<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>interpretability<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -332,18 +385,38 @@ This section provides details for each class and property defined by Mapping Qua
          <span class="markdown">Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable.</span>
       </div>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
+            <a href="http://www.w3.org/ns/dqv#Dimension"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Dimension">dimension</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="intrinsic">
+      <h3>intrinsic<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://mappingQualityVocabulary/metrics#intrinsic</p>
+      <div class="comment">
+         <span class="markdown">Intrinsic category contains the dimensions that are independent of the user’s context.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/dqv#Category"
+               target="_blank"
+               title="http://www.w3.org/ns/dqv#Category">category</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="licensing">
-      <h3>Licensing<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>licensing<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -352,18 +425,38 @@ This section provides details for each class and property defined by Mapping Qua
          <span class="markdown">Licensing refers to the license under which a mapping and its resulting dataset can be (re) used.</span>
       </div>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
+            <a href="http://www.w3.org/ns/dqv#Dimension"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Dimension">dimension</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="mappingConsistency">
+      <h3>mappingConsistency<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://mappingQualityVocabulary/metrics#mappingConsistency</p>
+      <div class="comment">
+         <span class="markdown">Mapping Consistency is the extent to which a mapping is conformant to its mapping language.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/dqv#Dimension"
+               target="_blank"
+               title="http://www.w3.org/ns/dqv#Dimension">dimension</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="MP1">
-      <h3>M1<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>MP1<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -378,38 +471,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="mappingConsistency">
-      <h3>Mapping Consistency<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://mappingQualityVocabulary/metrics#mappingConsistency</p>
-      <div class="comment">
-         <span class="markdown">Mapping Consistency is the extent to which a mapping is conformant to its mapping language.</span>
-      </div>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
-               target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="MP2">
-      <h3>MP2<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>MP2<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -424,18 +497,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="MP3">
-      <h3>MP3<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>MP3<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -450,18 +523,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="MP4">
-      <h3>MP4<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>MP4<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -476,18 +549,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="MP5">
-      <h3>MP5<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>MP5<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -502,18 +575,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="MP6">
-      <h3>MP6<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>MP6<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -528,18 +601,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="MP7">
-      <h3>MP7<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>MP7<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -554,18 +627,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="MP8">
-      <h3>MP8<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>MP8<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -580,38 +653,38 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
-   <div class="entity" id="RDFtermCorrectness">
-      <h3>RDF term correctness<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+   <div class="entity" id="representational">
+      <h3>representational<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://mappingQualityVocabulary/metrics#RDFtermCorrectness</p>
+         <strong>IRI:</strong> http://mappingQualityVocabulary/metrics#representational</p>
       <div class="comment">
-         <span class="markdown">RDF term correctness is the extent to which a mapping correctly defines RDF terms.</span>
+         <span class="markdown">Representational category is concerned  with the  design  of  the data.</span>
       </div>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
+            <a href="http://www.w3.org/ns/dqv#Category"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Category">category</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="representationalConciseness">
-      <h3>Representational Conciseness<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>representationalConciseness<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -620,18 +693,18 @@ This section provides details for each class and property defined by Mapping Qua
          <span class="markdown">Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear.</span>
       </div>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
+            <a href="http://www.w3.org/ns/dqv#Dimension"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Dimension">dimension</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="trustworthiness">
-      <h3>Trustworthiness<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>trustworthiness<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -640,18 +713,18 @@ This section provides details for each class and property defined by Mapping Qua
          <span class="markdown">Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'.</span>
       </div>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
+            <a href="http://www.w3.org/ns/dqv#Dimension"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Dimension">dimension</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="understandability">
-      <h3>Understandability<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>understandability<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -660,18 +733,18 @@ This section provides details for each class and property defined by Mapping Qua
          <span class="markdown">Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them.</span>
       </div>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension"
+            <a href="http://www.w3.org/ns/dqv#Dimension"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Dimension">dqv:dimension</a>
+               title="http://www.w3.org/ns/dqv#Dimension">dimension</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="VOC1">
-      <h3>VOC1<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>VOC1<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -686,18 +759,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="VOC2">
-      <h3>VOC2<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>VOC2<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -712,18 +785,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="VOC3">
-      <h3>VOC3<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>VOC3<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -738,18 +811,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="VOC4">
-      <h3>VOC4<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>VOC4<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -764,18 +837,18 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
-            <a href="https://www.w3.org/TR/vocab-dqv/#dqv:Metric"
+            <a href="http://www.w3.org/ns/dqv#Metric"
                target="_blank"
-               title="https://www.w3.org/TR/vocab-dqv/#dqv:Metric">dqv:metric</a>
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="VOC5">
-      <h3>VOC5<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+      <h3>VOC5<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
@@ -790,8 +863,11 @@ This section provides details for each class and property defined by Mapping Qua
          </dd>
       </dl>
       <dl class="description">
-         <dt>belongs to</dt>
+         <dt>has super-classes</dt>
          <dd>
+            <a href="http://www.w3.org/ns/dqv#Metric"
+               target="_blank"
+               title="http://www.w3.org/ns/dqv#Metric">metric</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
