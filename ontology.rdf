@@ -13,7 +13,7 @@
     <owl:Ontology rdf:about="http://mappingQualityVocabulary/metrics#">
         <bibo:status>Draft</bibo:status>
         <terms:abstract>The Mapping Quality Vocabulary (MQV) metrics represent the mapping quality metrics used by MQV.</terms:abstract>
-        <terms:created>1 August 2021</terms:created>
+        <terms:created>8 August 2021</terms:created>
         <terms:title>Mapping Quality Vocabulary Metrics</terms:title>
         <vann:preferredNamespacePrefix>mqv-metric</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>&lt;http://mappingQualityVocabulary/metrics#&gt;</vann:preferredNamespaceUri>
@@ -366,8 +366,8 @@
 
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#accessibility">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Category"/>
-        <rdfs:comment xml:lang="en">The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data </rdfs:comment>
-        <rdfs:label xml:lang="en">accessibility</rdfs:label>
+        <rdfs:comment xml:lang="en">The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data.</rdfs:comment>
+        <rdfs:label xml:lang="en">Accessibility</rdfs:label>
     </owl:Class>
     
 
@@ -377,8 +377,8 @@
 
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#availability">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
-        <rdfs:comment xml:lang="en">Availability of a dataset &lt;http://www.w3.org/ns/dqv#Metric&gt;is the extent to which data (or some portion of it) is present, obtainable and ready for use.</rdfs:comment>
-        <rdfs:label xml:lang="en">availability</rdfs:label>
+        <rdfs:comment xml:lang="en">Availability of a datasets the extent to which data (or some portion of it) is present, obtainable and ready for use.</rdfs:comment>
+        <rdfs:label xml:lang="en">Availability</rdfs:label>
         <dqv:inCategory rdf:resource="http://mappingQualityVocabulary/metrics#accessibility"/>
     </owl:Class>
     
@@ -390,7 +390,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#contextual">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Category"/>
         <rdfs:comment xml:lang="en">The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand.</rdfs:comment>
-        <rdfs:label xml:lang="en">contextual</rdfs:label>
+        <rdfs:label xml:lang="en">Contextual</rdfs:label>
     </owl:Class>
     
 
@@ -401,7 +401,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#dataConsistency">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
         <rdfs:comment xml:lang="en">Data Consistency is the extent to which a dataset will be generated with no conflicting information.</rdfs:comment>
-        <rdfs:label xml:lang="en">dataConsistency</rdfs:label>
+        <rdfs:label xml:lang="en">Data Consistency</rdfs:label>
         <dqv:inCategory rdf:resource="http://mappingQualityVocabulary/metrics#intrinsic"/>
     </owl:Class>
     
@@ -413,7 +413,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#interpretability">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
         <rdfs:comment xml:lang="en">Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable.</rdfs:comment>
-        <rdfs:label xml:lang="en">interpretability</rdfs:label>
+        <rdfs:label xml:lang="en">Interpretability</rdfs:label>
         <dqv:inCategory rdf:resource="http://mappingQualityVocabulary/metrics#representational"/>
     </owl:Class>
     
@@ -425,7 +425,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#intrinsic">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Category"/>
         <rdfs:comment xml:lang="en">Intrinsic category contains the dimensions that are independent of the user’s context.</rdfs:comment>
-        <rdfs:label xml:lang="en">intrinsic</rdfs:label>
+        <rdfs:label xml:lang="en">Intrinsic</rdfs:label>
     </owl:Class>
     
 
@@ -436,7 +436,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#licensing">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
         <rdfs:comment xml:lang="en">Licensing refers to the license under which a mapping and its resulting dataset can be (re) used.</rdfs:comment>
-        <rdfs:label xml:lang="en">licensing</rdfs:label>
+        <rdfs:label xml:lang="en">Licensing</rdfs:label>
         <dqv:inCategory rdf:resource="http://mappingQualityVocabulary/metrics#accessibility"/>
     </owl:Class>
     
@@ -448,7 +448,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#mappingConsistency">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
         <rdfs:comment xml:lang="en">Mapping Consistency is the extent to which a mapping is conformant to its mapping language.</rdfs:comment>
-        <rdfs:label xml:lang="en">mappingConsistency</rdfs:label>
+        <rdfs:label xml:lang="en">Mapping Consistency</rdfs:label>
         <dqv:inCategory rdf:resource="http://mappingQualityVocabulary/metrics#intrinsic"/>
     </owl:Class>
     
@@ -460,7 +460,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#representational">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Category"/>
         <rdfs:comment xml:lang="en">Representational category is concerned  with the  design  of  the data.</rdfs:comment>
-        <rdfs:label xml:lang="en">representational</rdfs:label>
+        <rdfs:label xml:lang="en">Representational</rdfs:label>
     </owl:Class>
     
 
@@ -471,7 +471,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#representationalConciseness">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
         <rdfs:comment xml:lang="en">Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear.</rdfs:comment>
-        <rdfs:label xml:lang="en">representationalConciseness</rdfs:label>
+        <rdfs:label xml:lang="en">Representational Conciseness</rdfs:label>
         <dqv:inCategory rdf:resource="http://mappingQualityVocabulary/metrics#representational"/>
     </owl:Class>
     
@@ -483,7 +483,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#trustworthiness">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
         <rdfs:comment xml:lang="en">Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is &apos;true&apos;.</rdfs:comment>
-        <rdfs:label xml:lang="en">trustworthiness</rdfs:label>
+        <rdfs:label xml:lang="en">Trustworthiness</rdfs:label>
         <dqv:inCategory rdf:resource="http://mappingQualityVocabulary/metrics#contextual"/>
     </owl:Class>
     
@@ -495,7 +495,7 @@
     <owl:Class rdf:about="http://mappingQualityVocabulary/metrics#understandability">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Dimension"/>
         <rdfs:comment xml:lang="en">Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them.</rdfs:comment>
-        <rdfs:label xml:lang="en">understandability</rdfs:label>
+        <rdfs:label xml:lang="en">Understandability</rdfs:label>
         <dqv:inCategory rdf:resource="http://mappingQualityVocabulary/metrics#contextual"/>
     </owl:Class>
     

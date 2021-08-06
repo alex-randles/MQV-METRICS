@@ -11,7 +11,7 @@
       "created" : [ {
         "identifier" : "created",
         "language" : "undefined",
-        "value" : "1 August 2021",
+        "value" : "8 August 2021",
         "type" : "label"
       } ],
       "preferredNamespacePrefix" : [ {
@@ -69,10 +69,10 @@
     "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "14",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "13",
     "type" : "owl:Class"
   }, {
     "id" : "15",
@@ -81,10 +81,10 @@
     "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "18",
     "type" : "owl:Class"
   }, {
     "id" : "17",
@@ -105,13 +105,13 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "23",
+    "id" : "43",
     "type" : "owl:Class"
   }, {
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "43",
+    "id" : "23",
     "type" : "owl:Class"
   }, {
     "id" : "25",
@@ -129,10 +129,10 @@
     "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "37",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "37",
     "type" : "owl:Class"
   }, {
     "id" : "9",
@@ -167,7 +167,7 @@
     },
     "label" : {
       "IRI-based" : "licensing",
-      "en" : "licensing"
+      "en" : "Licensing"
     },
     "comment" : {
       "en" : "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."
@@ -188,7 +188,7 @@
     },
     "label" : {
       "IRI-based" : "interpretability",
-      "en" : "interpretability"
+      "en" : "Interpretability"
     },
     "comment" : {
       "en" : "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."
@@ -201,7 +201,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "representational",
-      "en" : "representational"
+      "en" : "Representational"
     },
     "comment" : {
       "en" : "Representational category is concerned  with the  design  of  the data."
@@ -283,33 +283,6 @@
     "id" : "12",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D4",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#representationalConciseness",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "D4",
-      "en" : "D4"
-    },
-    "comment" : {
-      "en" : "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."
-    },
-    "id" : "13",
-    "superClasses" : [ "7" ]
-  }, {
     "iri" : "http://mappingQualityVocabulary/metrics#MP6",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
@@ -335,6 +308,33 @@
       "en" : "Valid language tags are defined as per RFC 5646 (BCP 47)."
     },
     "id" : "14",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://mappingQualityVocabulary/metrics#D4",
+    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#representationalConciseness",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "D4",
+      "en" : "D4"
+    },
+    "comment" : {
+      "en" : "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."
+    },
+    "id" : "13",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D3",
@@ -391,6 +391,27 @@
     "id" : "16",
     "superClasses" : [ "7" ]
   }, {
+    "iri" : "http://mappingQualityVocabulary/metrics#trustworthiness",
+    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#contextual",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "trustworthiness",
+      "en" : "Trustworthiness"
+    },
+    "comment" : {
+      "en" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
+    },
+    "id" : "31",
+    "superClasses" : [ "2" ]
+  }, {
     "iri" : "http://mappingQualityVocabulary/metrics#MP8",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
@@ -417,27 +438,6 @@
     },
     "id" : "18",
     "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#trustworthiness",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#contextual",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "trustworthiness",
-      "en" : "trustworthiness"
-    },
-    "comment" : {
-      "en" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
-    },
-    "id" : "31",
-    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D2",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -506,10 +506,10 @@
     },
     "label" : {
       "IRI-based" : "availability",
-      "en" : "availability"
+      "en" : "Availability"
     },
     "comment" : {
-      "en" : "Availability of a dataset <http://www.w3.org/ns/dqv#Metric>is the extent to which data (or some portion of it) is present, obtainable and ready for use."
+      "en" : "Availability of a datasets the extent to which data (or some portion of it) is present, obtainable and ready for use."
     },
     "id" : "34",
     "superClasses" : [ "2" ]
@@ -519,7 +519,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "intrinsic",
-      "en" : "intrinsic"
+      "en" : "Intrinsic"
     },
     "comment" : {
       "en" : "Intrinsic category contains the dimensions that are independent of the user’s context."
@@ -581,32 +581,26 @@
     "id" : "21",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP3",
+    "iri" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
     "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
+      "inCategory" : [ {
+        "identifier" : "inCategory",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
+        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "MP3",
-      "en" : "MP3"
+      "IRI-based" : "mappingConsistency",
+      "en" : "Mapping Consistency"
     },
     "comment" : {
-      "en" : "The term type for a Predicate map must an rr:IRI."
+      "en" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
     },
-    "id" : "23",
-    "superClasses" : [ "7" ]
+    "id" : "43",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D7",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -635,26 +629,32 @@
     "id" : "22",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
+    "iri" : "http://mappingQualityVocabulary/metrics#MP3",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
     "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
+        "value" : "http://mappingQualityVocabulary/metrics#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "mappingConsistency",
-      "en" : "mappingConsistency"
+      "IRI-based" : "MP3",
+      "en" : "MP3"
     },
     "comment" : {
-      "en" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
+      "en" : "The term type for a Predicate map must an rr:IRI."
     },
-    "id" : "43",
-    "superClasses" : [ "2" ]
+    "id" : "23",
+    "superClasses" : [ "7" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D6",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -715,10 +715,10 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "accessibility",
-      "en" : "accessibility"
+      "en" : "Accessibility"
     },
     "comment" : {
-      "en" : "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data "
+      "en" : "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data."
     },
     "id" : "28",
     "superClasses" : [ "6" ]
@@ -738,34 +738,13 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "contextual",
-      "en" : "contextual"
+      "en" : "Contextual"
     },
     "comment" : {
       "en" : "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."
     },
     "id" : "30",
     "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#dataConsistency",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "dataConsistency",
-      "en" : "dataConsistency"
-    },
-    "comment" : {
-      "en" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
-    },
-    "id" : "37",
-    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#VOC3",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -793,6 +772,27 @@
     },
     "id" : "8",
     "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://mappingQualityVocabulary/metrics#dataConsistency",
+    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "dataConsistency",
+      "en" : "Data Consistency"
+    },
+    "comment" : {
+      "en" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
+    },
+    "id" : "37",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#VOC2",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -915,7 +915,7 @@
     },
     "label" : {
       "IRI-based" : "understandability",
-      "en" : "understandability"
+      "en" : "Understandability"
     },
     "comment" : {
       "en" : "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."
@@ -936,7 +936,7 @@
     },
     "label" : {
       "IRI-based" : "representationalConciseness",
-      "en" : "representationalConciseness"
+      "en" : "Representational Conciseness"
     },
     "comment" : {
       "en" : "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."
@@ -1044,162 +1044,162 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "0"
   }, {
     "range" : "2",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "32"
   }, {
     "range" : "2",
     "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "33"
   }, {
     "range" : "2",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "35"
   }, {
     "range" : "2",
     "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "36"
   }, {
     "range" : "2",
     "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "38"
   }, {
     "range" : "2",
     "domain" : "31",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "40"
   }, {
     "range" : "6",
     "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "41"
   }, {
     "range" : "6",
     "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
     "range" : "6",
     "domain" : "30",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
     "range" : "6",
     "domain" : "29",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "45"
   }, {
     "range" : "7",
     "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "46"
   }, {
     "range" : "7",
     "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "47"
   }, {
     "range" : "7",
     "domain" : "27",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "48"
   }, {
     "range" : "7",
     "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "49"
   }, {
     "range" : "7",
     "domain" : "21",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "50"
   }, {
     "range" : "7",
     "domain" : "24",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "51"
   }, {
     "range" : "7",
     "domain" : "23",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "52"
   }, {
     "range" : "7",
     "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "53"
   }, {
     "range" : "7",
     "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
     "range" : "7",
     "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "55"
   }, {
     "range" : "7",
     "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "56"
   }, {
     "range" : "7",
     "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "57"
   }, {
     "range" : "7",
     "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "58"
   }, {
     "range" : "7",
     "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "59"
   }, {
     "range" : "7",
     "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "60"
   }, {
     "range" : "7",
     "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "61"
   }, {
     "range" : "7",
     "domain" : "16",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "62"
   }, {
     "range" : "7",
     "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "63"
   }, {
     "range" : "7",
     "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "64"
   }, {
     "range" : "7",
     "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "65"
   }, {
     "range" : "2",
     "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "66"
   } ]
 }
