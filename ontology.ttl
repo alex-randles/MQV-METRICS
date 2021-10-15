@@ -9,7 +9,7 @@
 <http://mappingQualityVocabulary/metrics#> rdf:type owl:Ontology ;
                                             <http://purl.1122org/ontology/bibo/status> "Draft" ;
                                             <http://purl.org/dc/terms/abstract> "The Mapping Quality Vocabulary (MQV) metrics represent the mapping quality metrics used by MQV." ;
-                                            <http://purl.org/dc/terms/created> "8 August 2021" ;
+                                            <http://purl.org/dc/terms/created> "1 August 2021" ;
                                             <http://purl.org/dc/terms/title> "Mapping Quality Vocabulary Metrics" ;
                                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "mqv-metric" ;
                                             <http://purl.org/vocab/vann/preferredNamespaceUri> "<http://mappingQualityVocabulary/metrics#>" .
@@ -54,276 +54,276 @@
 #    Classes
 #################################################################
 
-###  http://mappingQualityVocabulary/metrics#D1
-:D1 rdf:type owl:Class ;
-    rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-    rdfs:comment "Classes are considered undefined when it is not possible to dereference them against their namespace."@en ;
-    rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-    rdfs:label "D1"@en ;
-    <http://www.w3.org/ns/dqv#inDimension> :interpretability .
+###  http://ontology.org/mqv-metrics#Accessibility
+<http://ontology.org/mqv-metrics#Accessibility> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.w3.org/ns/dqv#Category> ;
+                                                rdfs:comment "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data "@en ;
+                                                rdfs:label "Accessibility"@en .
 
 
-###  http://mappingQualityVocabulary/metrics#D2
-:D2 rdf:type owl:Class ;
-    rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-    rdfs:comment "Properties are considered undefined when it is not possible to dereference them against their namespace."@en ;
-    rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-    rdfs:label "D2"@en ;
-    <http://www.w3.org/ns/dqv#inDimension> :interpretability .
+###  http://ontology.org/mqv-metrics#Availability
+<http://ontology.org/mqv-metrics#Availability> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
+                                               rdfs:comment "Availability of a dataset <http://www.w3.org/ns/dqv#Metric>is the extent to which data (or some portion of it) is present, obtainable and ready for use."@en ;
+                                               rdfs:label "Availability"@en ;
+                                               <http://www.w3.org/ns/dqv#inCategory> <http://ontology.org/mqv-metrics#Accessibility> .
 
 
-###  http://mappingQualityVocabulary/metrics#D3
-:D3 rdf:type owl:Class ;
-    rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-    rdfs:comment "The class type defined in the subject map does not  include the domain for this property."@en ;
-    rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-    rdfs:label "D3"@en ;
-    <http://www.w3.org/ns/dqv#inDimension> :dataConsistency .
+###  http://ontology.org/mqv-metrics#Contextual
+<http://ontology.org/mqv-metrics#Contextual> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.w3.org/ns/dqv#Category> ;
+                                             rdfs:comment "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."@en ;
+                                             rdfs:label "Contextual"@en .
 
 
-###  http://mappingQualityVocabulary/metrics#D4
-:D4 rdf:type owl:Class ;
-    rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-    rdfs:comment "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."@en ;
-    rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-    rdfs:label "D4"@en ;
-    <http://www.w3.org/ns/dqv#inDimension> :representationalConciseness .
+###  http://ontology.org/mqv-metrics#D1
+<http://ontology.org/mqv-metrics#D1> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                     rdfs:comment "Classes are considered undefined when it is not possible to dereference them against their namespace."@en ;
+                                     rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                     rdfs:label "D1"@en ;
+                                     <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#Interpretability> .
 
 
-###  http://mappingQualityVocabulary/metrics#D5
-:D5 rdf:type owl:Class ;
-    rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-    rdfs:comment "Individuals of one class cannot be simultaneously members of another class."@en ;
-    rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-    rdfs:label "D5"@en ;
-    <http://www.w3.org/ns/dqv#inDimension> :dataConsistency .
+###  http://ontology.org/mqv-metrics#D2
+<http://ontology.org/mqv-metrics#D2> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                     rdfs:comment "Properties are considered undefined when it is not possible to dereference them against their namespace."@en ;
+                                     rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                     rdfs:label "D2"@en ;
+                                     <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#Interpretability> .
 
 
-###  http://mappingQualityVocabulary/metrics#D6
-:D6 rdf:type owl:Class ;
-    rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-    rdfs:comment "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."@en ;
-    rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-    rdfs:label "D6"@en ;
-    <http://www.w3.org/ns/dqv#inDimension> :dataConsistency .
+###  http://ontology.org/mqv-metrics#D3
+<http://ontology.org/mqv-metrics#D3> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                     rdfs:comment "The class type defined in the subject map does not  include the domain for this property."@en ;
+                                     rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                     rdfs:label "D3"@en ;
+                                     <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#DataConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#D7
-:D7 rdf:type owl:Class ;
-    rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-    rdfs:comment "The datatype assigned to the object does not match the datatype range for this property."@en ;
-    rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-    rdfs:label "D7"@en ;
-    <http://www.w3.org/ns/dqv#inDimension> :dataConsistency .
+###  http://ontology.org/mqv-metrics#D4
+<http://ontology.org/mqv-metrics#D4> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                     rdfs:comment "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."@en ;
+                                     rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                     rdfs:label "D4"@en ;
+                                     <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#RepresentationalConciseness> .
 
 
-###  http://mappingQualityVocabulary/metrics#MP1
-:MP1 rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-     rdfs:comment "Objects maps with literal values may refer to only one datatype and no language tags."@en ;
-     rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-     rdfs:label "MP1"@en ;
-     <http://www.w3.org/ns/dqv#inDimension> :mappingConsistency .
+###  http://ontology.org/mqv-metrics#D5
+<http://ontology.org/mqv-metrics#D5> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                     rdfs:comment "Individuals of one class cannot be simultaneously members of another class."@en ;
+                                     rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                     rdfs:label "D5"@en ;
+                                     <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#DataConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#MP2
-:MP2 rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-     rdfs:comment "The term type for a Subject map must be an rr:IRI or an rr:BlankNode."@en ;
-     rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-     rdfs:label "MP2"@en ;
-     <http://www.w3.org/ns/dqv#inDimension> :mappingConsistency .
+###  http://ontology.org/mqv-metrics#D6
+<http://ontology.org/mqv-metrics#D6> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                     rdfs:comment "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."@en ;
+                                     rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                     rdfs:label "D6"@en ;
+                                     <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#DataConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#MP3
-:MP3 rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-     rdfs:comment "The term type for a Predicate map must an rr:IRI."@en ;
-     rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-     rdfs:label "MP3"@en ;
-     <http://www.w3.org/ns/dqv#inDimension> :mappingConsistency .
+###  http://ontology.org/mqv-metrics#D7
+<http://ontology.org/mqv-metrics#D7> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                     rdfs:comment "The datatype assigned to the object does not match the datatype range for this property."@en ;
+                                     rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                     rdfs:label "D7"@en ;
+                                     <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#DataConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#MP4
-:MP4 rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-     rdfs:comment "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."@en ;
-     rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-     rdfs:label "MP4"@en ;
-     <http://www.w3.org/ns/dqv#inDimension> :mappingConsistency .
+###  http://ontology.org/mqv-metrics#DataConsistency
+<http://ontology.org/mqv-metrics#DataConsistency> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
+                                                  rdfs:comment "Data Consistency is the extent to which a dataset will be generated with no conflicting information."@en ;
+                                                  rdfs:label "DataConsistency"@en ;
+                                                  <http://www.w3.org/ns/dqv#inCategory> <http://ontology.org/mqv-metrics#Intrinsic> .
 
 
-###  http://mappingQualityVocabulary/metrics#MP5
-:MP5 rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-     rdfs:comment "Subject definitions must be valid URIs unless its type is defined as blank node."@en ;
-     rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-     rdfs:label "MP5"@en ;
-     <http://www.w3.org/ns/dqv#inDimension> :mappingConsistency .
+###  http://ontology.org/mqv-metrics#Interpretability
+<http://ontology.org/mqv-metrics#Interpretability> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
+                                                   rdfs:comment "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."@en ;
+                                                   rdfs:label "Interpretability"@en ;
+                                                   <http://www.w3.org/ns/dqv#inCategory> <http://ontology.org/mqv-metrics#Representational> .
 
 
-###  http://mappingQualityVocabulary/metrics#MP6
-:MP6 rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-     rdfs:comment "Valid language tags are defined as per RFC 5646 (BCP 47)."@en ;
-     rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-     rdfs:label "MP6"@en ;
-     <http://www.w3.org/ns/dqv#inDimension> :mappingConsistency .
+###  http://ontology.org/mqv-metrics#Intrinsic
+<http://ontology.org/mqv-metrics#Intrinsic> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3.org/ns/dqv#Category> ;
+                                            rdfs:comment "Intrinsic category contains the dimensions that are independent of the user’s context."@en ;
+                                            rdfs:label "Intrinsic"@en .
 
 
-###  http://mappingQualityVocabulary/metrics#MP7
-:MP7 rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-     rdfs:comment "A join condition must have a child column."@en ;
-     rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-     rdfs:label "MP7"@en ;
-     <http://www.w3.org/ns/dqv#inDimension> :mappingConsistency .
+###  http://ontology.org/mqv-metrics#Licensing
+<http://ontology.org/mqv-metrics#Licensing> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
+                                            rdfs:comment "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."@en ;
+                                            rdfs:label "Licensing"@en ;
+                                            <http://www.w3.org/ns/dqv#inCategory> <http://ontology.org/mqv-metrics#Accessibility> .
 
 
-###  http://mappingQualityVocabulary/metrics#MP8
-:MP8 rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-     rdfs:comment "A join condition must have a parent column."@en ;
-     rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-     rdfs:label "MP8"@en ;
-     <http://www.w3.org/ns/dqv#inDimension> :mappingConsistency .
+###  http://ontology.org/mqv-metrics#MP1
+<http://ontology.org/mqv-metrics#MP1> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                      rdfs:comment "Objects maps with literal values may refer to only one datatype and no language tags."@en ;
+                                      rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                      rdfs:label "MP1"@en ;
+                                      <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#MappingConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#VOC1
-:VOC1 rdf:type owl:Class ;
-      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-      rdfs:comment "Humans consuming the information should be able to understand the Linked Data Resource."@en ;
-      rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-      rdfs:label "VOC1"@en ;
-      <http://www.w3.org/ns/dqv#inDimension> :understandability .
+###  http://ontology.org/mqv-metrics#MP2
+<http://ontology.org/mqv-metrics#MP2> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                      rdfs:comment "The term type for a Subject map must be an rr:IRI or an rr:BlankNode."@en ;
+                                      rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                      rdfs:label "MP2"@en ;
+                                      <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#MappingConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#VOC2
-:VOC2 rdf:type owl:Class ;
-      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-      rdfs:comment "Consumers need to understand where the data has originated."@en ;
-      rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-      rdfs:label "VOC2"@en ;
-      <http://www.w3.org/ns/dqv#inDimension> :trustworthiness .
+###  http://ontology.org/mqv-metrics#MP3
+<http://ontology.org/mqv-metrics#MP3> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                      rdfs:comment "The term type for a Predicate map must an rr:IRI."@en ;
+                                      rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                      rdfs:label "MP3"@en ;
+                                      <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#MappingConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#VOC3
-:VOC3 rdf:type owl:Class ;
-      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-      rdfs:comment "Allows the licensing information to be queried by machines."@en ;
-      rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-      rdfs:label "VOC3"@en ;
-      <http://www.w3.org/ns/dqv#inDimension> :licensing .
+###  http://ontology.org/mqv-metrics#MP4
+<http://ontology.org/mqv-metrics#MP4> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                      rdfs:comment "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."@en ;
+                                      rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                      rdfs:label "MP4"@en ;
+                                      <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#MappingConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#VOC4
-:VOC4 rdf:type owl:Class ;
-      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-      rdfs:comment "Allows humans to read and understand license in a textual format."@en ;
-      rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-      rdfs:label "VOC4"@en ;
-      <http://www.w3.org/ns/dqv#inDimension> :licensing .
+###  http://ontology.org/mqv-metrics#MP5
+<http://ontology.org/mqv-metrics#MP5> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                      rdfs:comment "Subject definitions must be valid URIs unless its type is defined as blank node."@en ;
+                                      rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                      rdfs:label "MP5"@en ;
+                                      <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#MappingConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#VOC5
-:VOC5 rdf:type owl:Class ;
-      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
-      rdfs:comment "Ensuring the resources are retrievable is one of the main principles of Linked Data."@en ;
-      rdfs:isDefinedBy <http://mappingQualityVocabulary/metrics#> ;
-      rdfs:label "VOC5"@en ;
-      <http://www.w3.org/ns/dqv#inDimension> :availability .
+###  http://ontology.org/mqv-metrics#MP6
+<http://ontology.org/mqv-metrics#MP6> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                      rdfs:comment "Valid language tags are defined as per RFC 5646 (BCP 47)."@en ;
+                                      rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                      rdfs:label "MP6"@en ;
+                                      <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#MappingConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#accessibility
-:accessibility rdf:type owl:Class ;
-               rdfs:subClassOf <http://www.w3.org/ns/dqv#Category> ;
-               rdfs:comment "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data."@en ;
-               rdfs:label "Accessibility"@en .
+###  http://ontology.org/mqv-metrics#MP7
+<http://ontology.org/mqv-metrics#MP7> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                      rdfs:comment "A join condition must have a child column."@en ;
+                                      rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                      rdfs:label "MP7"@en ;
+                                      <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#MappingConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#availability
-:availability rdf:type owl:Class ;
-              rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
-              rdfs:comment "Availability of a datasets the extent to which data (or some portion of it) is present, obtainable and ready for use."@en ;
-              rdfs:label "Availability"@en ;
-              <http://www.w3.org/ns/dqv#inCategory> :accessibility .
+###  http://ontology.org/mqv-metrics#MP8
+<http://ontology.org/mqv-metrics#MP8> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                      rdfs:comment "A join condition must have a parent column."@en ;
+                                      rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                      rdfs:label "MP8"@en ;
+                                      <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#MappingConsistency> .
 
 
-###  http://mappingQualityVocabulary/metrics#contextual
-:contextual rdf:type owl:Class ;
-            rdfs:subClassOf <http://www.w3.org/ns/dqv#Category> ;
-            rdfs:comment "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."@en ;
-            rdfs:label "Contextual"@en .
+###  http://ontology.org/mqv-metrics#MappingConsistency
+<http://ontology.org/mqv-metrics#MappingConsistency> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
+                                                     rdfs:comment "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."@en ;
+                                                     rdfs:label "MappingConsistency"@en ;
+                                                     <http://www.w3.org/ns/dqv#inCategory> <http://ontology.org/mqv-metrics#Intrinsic> .
 
 
-###  http://mappingQualityVocabulary/metrics#dataConsistency
-:dataConsistency rdf:type owl:Class ;
-                 rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
-                 rdfs:comment "Data Consistency is the extent to which a dataset will be generated with no conflicting information."@en ;
-                 rdfs:label "Data Consistency"@en ;
-                 <http://www.w3.org/ns/dqv#inCategory> :intrinsic .
+###  http://ontology.org/mqv-metrics#Representational
+<http://ontology.org/mqv-metrics#Representational> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3.org/ns/dqv#Category> ;
+                                                   rdfs:comment "Representational category is concerned  with the  design  of  the data."@en ;
+                                                   rdfs:label "Representational"@en .
 
 
-###  http://mappingQualityVocabulary/metrics#interpretability
-:interpretability rdf:type owl:Class ;
-                  rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
-                  rdfs:comment "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."@en ;
-                  rdfs:label "Interpretability"@en ;
-                  <http://www.w3.org/ns/dqv#inCategory> :representational .
+###  http://ontology.org/mqv-metrics#RepresentationalConciseness
+<http://ontology.org/mqv-metrics#RepresentationalConciseness> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
+                                                              rdfs:comment "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."@en ;
+                                                              rdfs:label "RepresentationalConciseness"@en ;
+                                                              <http://www.w3.org/ns/dqv#inCategory> <http://ontology.org/mqv-metrics#Representational> .
 
 
-###  http://mappingQualityVocabulary/metrics#intrinsic
-:intrinsic rdf:type owl:Class ;
-           rdfs:subClassOf <http://www.w3.org/ns/dqv#Category> ;
-           rdfs:comment "Intrinsic category contains the dimensions that are independent of the user’s context."@en ;
-           rdfs:label "Intrinsic"@en .
+###  http://ontology.org/mqv-metrics#Trustworthiness
+<http://ontology.org/mqv-metrics#Trustworthiness> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
+                                                  rdfs:comment "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."@en ;
+                                                  rdfs:label "Trustworthiness"@en ;
+                                                  <http://www.w3.org/ns/dqv#inCategory> <http://ontology.org/mqv-metrics#Contextual> .
 
 
-###  http://mappingQualityVocabulary/metrics#licensing
-:licensing rdf:type owl:Class ;
-           rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
-           rdfs:comment "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."@en ;
-           rdfs:label "Licensing"@en ;
-           <http://www.w3.org/ns/dqv#inCategory> :accessibility .
+###  http://ontology.org/mqv-metrics#Understandability
+<http://ontology.org/mqv-metrics#Understandability> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
+                                                    rdfs:comment "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."@en ;
+                                                    rdfs:label "Understandability"@en ;
+                                                    <http://www.w3.org/ns/dqv#inCategory> <http://ontology.org/mqv-metrics#Contextual> .
 
 
-###  http://mappingQualityVocabulary/metrics#mappingConsistency
-:mappingConsistency rdf:type owl:Class ;
-                    rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
-                    rdfs:comment "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."@en ;
-                    rdfs:label "Mapping Consistency"@en ;
-                    <http://www.w3.org/ns/dqv#inCategory> :intrinsic .
+###  http://ontology.org/mqv-metrics#VOC1
+<http://ontology.org/mqv-metrics#VOC1> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                       rdfs:comment "Humans consuming the information should be able to understand the Linked Data Resource."@en ;
+                                       rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                       rdfs:label "VOC1"@en ;
+                                       <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#Understandability> .
 
 
-###  http://mappingQualityVocabulary/metrics#representational
-:representational rdf:type owl:Class ;
-                  rdfs:subClassOf <http://www.w3.org/ns/dqv#Category> ;
-                  rdfs:comment "Representational category is concerned  with the  design  of  the data."@en ;
-                  rdfs:label "Representational"@en .
+###  http://ontology.org/mqv-metrics#VOC2
+<http://ontology.org/mqv-metrics#VOC2> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                       rdfs:comment "Consumers need to understand where the data has originated."@en ;
+                                       rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                       rdfs:label "VOC2"@en ;
+                                       <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#Trustworthiness> .
 
 
-###  http://mappingQualityVocabulary/metrics#representationalConciseness
-:representationalConciseness rdf:type owl:Class ;
-                             rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
-                             rdfs:comment "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."@en ;
-                             rdfs:label "Representational Conciseness"@en ;
-                             <http://www.w3.org/ns/dqv#inCategory> :representational .
+###  http://ontology.org/mqv-metrics#VOC3
+<http://ontology.org/mqv-metrics#VOC3> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                       rdfs:comment "Allows the licensing information to be queried by machines."@en ;
+                                       rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                       rdfs:label "VOC3"@en ;
+                                       <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#Licensing> .
 
 
-###  http://mappingQualityVocabulary/metrics#trustworthiness
-:trustworthiness rdf:type owl:Class ;
-                 rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
-                 rdfs:comment "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."@en ;
-                 rdfs:label "Trustworthiness"@en ;
-                 <http://www.w3.org/ns/dqv#inCategory> :contextual .
+###  http://ontology.org/mqv-metrics#VOC4
+<http://ontology.org/mqv-metrics#VOC4> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                       rdfs:comment "Allows humans to read and understand license in a textual format."@en ;
+                                       rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                       rdfs:label "VOC4"@en ;
+                                       <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#Licensing> .
 
 
-###  http://mappingQualityVocabulary/metrics#understandability
-:understandability rdf:type owl:Class ;
-                   rdfs:subClassOf <http://www.w3.org/ns/dqv#Dimension> ;
-                   rdfs:comment "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."@en ;
-                   rdfs:label "Understandability"@en ;
-                   <http://www.w3.org/ns/dqv#inCategory> :contextual .
+###  http://ontology.org/mqv-metrics#VOC5
+<http://ontology.org/mqv-metrics#VOC5> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.w3.org/ns/dqv#Metric> ;
+                                       rdfs:comment "Ensuring the resources are retrievable is one of the main principles of Linked Data."@en ;
+                                       rdfs:isDefinedBy <http://ontology.org/mqv-metrics#> ;
+                                       rdfs:label "VOC5"@en ;
+                                       <http://www.w3.org/ns/dqv#inDimension> <http://ontology.org/mqv-metrics#Availability> .
 
 
 ###  http://www.w3.org/ns/dqv#Category
