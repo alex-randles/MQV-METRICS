@@ -20,6 +20,51 @@
     "@value" : "<http://mappingQualityVocabulary/metrics#>"
   } ]
 }, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Accessibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accessibility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Category"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Availability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Availability of a dataset <http://www.w3.org/ns/dqv#Metric>is the extent to which data (or some portion of it) is present, obtainable and ready for use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Availability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "http://mappingQualityVocabulary/metrics#Accessibility"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Contextual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contextual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Category"
+  } ]
+}, {
   "@id" : "http://mappingQualityVocabulary/metrics#D1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -37,7 +82,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#interpretability"
+    "@id" : "http://mappingQualityVocabulary/metrics#Interpretability"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#D2",
@@ -57,7 +102,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#interpretability"
+    "@id" : "http://mappingQualityVocabulary/metrics#Interpretability"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#D3",
@@ -77,7 +122,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#dataConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#D4",
@@ -97,7 +142,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#representationalConciseness"
+    "@id" : "http://mappingQualityVocabulary/metrics#RepresentationalConciseness"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#D5",
@@ -117,7 +162,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#dataConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#D6",
@@ -137,7 +182,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#dataConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#D7",
@@ -157,7 +202,72 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#dataConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DataConsistency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "http://mappingQualityVocabulary/metrics#Intrinsic"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Interpretability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interpretability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "http://mappingQualityVocabulary/metrics#Representational"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Intrinsic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Intrinsic category contains the dimensions that are independent of the user’s context."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Intrinsic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Category"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Licensing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Licensing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "http://mappingQualityVocabulary/metrics#Accessibility"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#MP1",
@@ -177,7 +287,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#MP2",
@@ -197,7 +307,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#MP3",
@@ -217,7 +327,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#MP4",
@@ -237,7 +347,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#MP5",
@@ -257,7 +367,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#MP6",
@@ -277,7 +387,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#MP7",
@@ -297,7 +407,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#MP8",
@@ -317,7 +427,89 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency"
+    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MappingConsistency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "http://mappingQualityVocabulary/metrics#Intrinsic"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Representational",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representational category is concerned  with the  design  of  the data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Representational"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Category"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#RepresentationalConciseness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RepresentationalConciseness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "http://mappingQualityVocabulary/metrics#Representational"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Trustworthiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trustworthiness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "http://mappingQualityVocabulary/metrics#Contextual"
+  } ]
+}, {
+  "@id" : "http://mappingQualityVocabulary/metrics#Understandability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Understandability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "http://mappingQualityVocabulary/metrics#Contextual"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#VOC1",
@@ -337,7 +529,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#understandability"
+    "@id" : "http://mappingQualityVocabulary/metrics#Understandability"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#VOC2",
@@ -357,7 +549,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#trustworthiness"
+    "@id" : "http://mappingQualityVocabulary/metrics#Trustworthiness"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#VOC3",
@@ -377,7 +569,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#licensing"
+    "@id" : "http://mappingQualityVocabulary/metrics#Licensing"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#VOC4",
@@ -397,7 +589,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#licensing"
+    "@id" : "http://mappingQualityVocabulary/metrics#Licensing"
   } ]
 }, {
   "@id" : "http://mappingQualityVocabulary/metrics#VOC5",
@@ -417,199 +609,7 @@
     "@id" : "http://www.w3.org/ns/dqv#Metric"
   } ],
   "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#availability"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#accessibility",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Accessibility"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Category"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#availability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Availability of a datasets the extent to which data (or some portion of it) is present, obtainable and ready for use."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Availability"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#accessibility"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#contextual",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Contextual"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Category"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#dataConsistency",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Data Consistency"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#intrinsic"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#interpretability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Interpretability"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#representational"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#intrinsic",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Intrinsic category contains the dimensions that are independent of the user’s context."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Intrinsic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Category"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#licensing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Licensing"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#accessibility"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Mapping Consistency"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#intrinsic"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#representational",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Representational category is concerned  with the  design  of  the data."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Representational"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Category"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#representationalConciseness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Representational Conciseness"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#representational"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#trustworthiness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Trustworthiness"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#contextual"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#understandability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Understandability"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#contextual"
+    "@id" : "http://mappingQualityVocabulary/metrics#Availability"
   } ]
 }, {
   "@id" : "http://purl.1122org/ontology/bibo/status",

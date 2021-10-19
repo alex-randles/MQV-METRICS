@@ -47,13 +47,35 @@
 # #################################################################
 # 
 # 
+# http://mappingQualityVocabulary/metrics#Accessibility
+<http://mappingQualityVocabulary/metrics#Accessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Accessibility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Category> .
+<http://www.w3.org/ns/dqv#Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Accessibility> <http://www.w3.org/2000/01/rdf-schema#comment> "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data "@en .
+<http://mappingQualityVocabulary/metrics#Accessibility> <http://www.w3.org/2000/01/rdf-schema#label> "Accessibility"@en .
+# 
+# http://mappingQualityVocabulary/metrics#Availability
+<http://mappingQualityVocabulary/metrics#Availability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Availability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
+<http://www.w3.org/ns/dqv#Dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Availability> <http://www.w3.org/2000/01/rdf-schema#comment> "Availability of a dataset <http://www.w3.org/ns/dqv#Metric>is the extent to which data (or some portion of it) is present, obtainable and ready for use."@en .
+<http://mappingQualityVocabulary/metrics#Availability> <http://www.w3.org/2000/01/rdf-schema#label> "Availability"@en .
+<http://mappingQualityVocabulary/metrics#Availability> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#Accessibility> .
+# 
+# http://mappingQualityVocabulary/metrics#Contextual
+<http://mappingQualityVocabulary/metrics#Contextual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Contextual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Category> .
+<http://mappingQualityVocabulary/metrics#Contextual> <http://www.w3.org/2000/01/rdf-schema#comment> "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."@en .
+<http://mappingQualityVocabulary/metrics#Contextual> <http://www.w3.org/2000/01/rdf-schema#label> "Contextual"@en .
+# 
 # http://mappingQualityVocabulary/metrics#D1
 <http://mappingQualityVocabulary/metrics#D1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://mappingQualityVocabulary/metrics#D1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Metric> .
+<http://www.w3.org/ns/dqv#Metric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://mappingQualityVocabulary/metrics#D1> <http://www.w3.org/2000/01/rdf-schema#comment> "Classes are considered undefined when it is not possible to dereference them against their namespace."@en .
 <http://mappingQualityVocabulary/metrics#D1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#D1> <http://www.w3.org/2000/01/rdf-schema#label> "D1"@en .
-<http://mappingQualityVocabulary/metrics#D1> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#interpretability> .
+<http://mappingQualityVocabulary/metrics#D1> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#Interpretability> .
 # 
 # http://mappingQualityVocabulary/metrics#D2
 <http://mappingQualityVocabulary/metrics#D2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -61,7 +83,7 @@
 <http://mappingQualityVocabulary/metrics#D2> <http://www.w3.org/2000/01/rdf-schema#comment> "Properties are considered undefined when it is not possible to dereference them against their namespace."@en .
 <http://mappingQualityVocabulary/metrics#D2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#D2> <http://www.w3.org/2000/01/rdf-schema#label> "D2"@en .
-<http://mappingQualityVocabulary/metrics#D2> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#interpretability> .
+<http://mappingQualityVocabulary/metrics#D2> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#Interpretability> .
 # 
 # http://mappingQualityVocabulary/metrics#D3
 <http://mappingQualityVocabulary/metrics#D3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -69,7 +91,7 @@
 <http://mappingQualityVocabulary/metrics#D3> <http://www.w3.org/2000/01/rdf-schema#comment> "The class type defined in the subject map does not  include the domain for this property."@en .
 <http://mappingQualityVocabulary/metrics#D3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#D3> <http://www.w3.org/2000/01/rdf-schema#label> "D3"@en .
-<http://mappingQualityVocabulary/metrics#D3> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#dataConsistency> .
+<http://mappingQualityVocabulary/metrics#D3> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#DataConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#D4
 <http://mappingQualityVocabulary/metrics#D4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -77,7 +99,7 @@
 <http://mappingQualityVocabulary/metrics#D4> <http://www.w3.org/2000/01/rdf-schema#comment> "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."@en .
 <http://mappingQualityVocabulary/metrics#D4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#D4> <http://www.w3.org/2000/01/rdf-schema#label> "D4"@en .
-<http://mappingQualityVocabulary/metrics#D4> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#representationalConciseness> .
+<http://mappingQualityVocabulary/metrics#D4> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#RepresentationalConciseness> .
 # 
 # http://mappingQualityVocabulary/metrics#D5
 <http://mappingQualityVocabulary/metrics#D5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -85,7 +107,7 @@
 <http://mappingQualityVocabulary/metrics#D5> <http://www.w3.org/2000/01/rdf-schema#comment> "Individuals of one class cannot be simultaneously members of another class."@en .
 <http://mappingQualityVocabulary/metrics#D5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#D5> <http://www.w3.org/2000/01/rdf-schema#label> "D5"@en .
-<http://mappingQualityVocabulary/metrics#D5> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#dataConsistency> .
+<http://mappingQualityVocabulary/metrics#D5> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#DataConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#D6
 <http://mappingQualityVocabulary/metrics#D6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -93,7 +115,7 @@
 <http://mappingQualityVocabulary/metrics#D6> <http://www.w3.org/2000/01/rdf-schema#comment> "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."@en .
 <http://mappingQualityVocabulary/metrics#D6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#D6> <http://www.w3.org/2000/01/rdf-schema#label> "D6"@en .
-<http://mappingQualityVocabulary/metrics#D6> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#dataConsistency> .
+<http://mappingQualityVocabulary/metrics#D6> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#DataConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#D7
 <http://mappingQualityVocabulary/metrics#D7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -101,7 +123,34 @@
 <http://mappingQualityVocabulary/metrics#D7> <http://www.w3.org/2000/01/rdf-schema#comment> "The datatype assigned to the object does not match the datatype range for this property."@en .
 <http://mappingQualityVocabulary/metrics#D7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#D7> <http://www.w3.org/2000/01/rdf-schema#label> "D7"@en .
-<http://mappingQualityVocabulary/metrics#D7> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#dataConsistency> .
+<http://mappingQualityVocabulary/metrics#D7> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#DataConsistency> .
+# 
+# http://mappingQualityVocabulary/metrics#DataConsistency
+<http://mappingQualityVocabulary/metrics#DataConsistency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#DataConsistency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
+<http://mappingQualityVocabulary/metrics#DataConsistency> <http://www.w3.org/2000/01/rdf-schema#comment> "Data Consistency is the extent to which a dataset will be generated with no conflicting information."@en .
+<http://mappingQualityVocabulary/metrics#DataConsistency> <http://www.w3.org/2000/01/rdf-schema#label> "DataConsistency"@en .
+<http://mappingQualityVocabulary/metrics#DataConsistency> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#Intrinsic> .
+# 
+# http://mappingQualityVocabulary/metrics#Interpretability
+<http://mappingQualityVocabulary/metrics#Interpretability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Interpretability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
+<http://mappingQualityVocabulary/metrics#Interpretability> <http://www.w3.org/2000/01/rdf-schema#comment> "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."@en .
+<http://mappingQualityVocabulary/metrics#Interpretability> <http://www.w3.org/2000/01/rdf-schema#label> "Interpretability"@en .
+<http://mappingQualityVocabulary/metrics#Interpretability> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#Representational> .
+# 
+# http://mappingQualityVocabulary/metrics#Intrinsic
+<http://mappingQualityVocabulary/metrics#Intrinsic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Intrinsic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Category> .
+<http://mappingQualityVocabulary/metrics#Intrinsic> <http://www.w3.org/2000/01/rdf-schema#comment> "Intrinsic category contains the dimensions that are independent of the user’s context."@en .
+<http://mappingQualityVocabulary/metrics#Intrinsic> <http://www.w3.org/2000/01/rdf-schema#label> "Intrinsic"@en .
+# 
+# http://mappingQualityVocabulary/metrics#Licensing
+<http://mappingQualityVocabulary/metrics#Licensing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Licensing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
+<http://mappingQualityVocabulary/metrics#Licensing> <http://www.w3.org/2000/01/rdf-schema#comment> "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."@en .
+<http://mappingQualityVocabulary/metrics#Licensing> <http://www.w3.org/2000/01/rdf-schema#label> "Licensing"@en .
+<http://mappingQualityVocabulary/metrics#Licensing> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#Accessibility> .
 # 
 # http://mappingQualityVocabulary/metrics#MP1
 <http://mappingQualityVocabulary/metrics#MP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -109,7 +158,7 @@
 <http://mappingQualityVocabulary/metrics#MP1> <http://www.w3.org/2000/01/rdf-schema#comment> "Objects maps with literal values may refer to only one datatype and no language tags."@en .
 <http://mappingQualityVocabulary/metrics#MP1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#MP1> <http://www.w3.org/2000/01/rdf-schema#label> "MP1"@en .
-<http://mappingQualityVocabulary/metrics#MP1> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#mappingConsistency> .
+<http://mappingQualityVocabulary/metrics#MP1> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#MappingConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#MP2
 <http://mappingQualityVocabulary/metrics#MP2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -117,7 +166,7 @@
 <http://mappingQualityVocabulary/metrics#MP2> <http://www.w3.org/2000/01/rdf-schema#comment> "The term type for a Subject map must be an rr:IRI or an rr:BlankNode."@en .
 <http://mappingQualityVocabulary/metrics#MP2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#MP2> <http://www.w3.org/2000/01/rdf-schema#label> "MP2"@en .
-<http://mappingQualityVocabulary/metrics#MP2> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#mappingConsistency> .
+<http://mappingQualityVocabulary/metrics#MP2> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#MappingConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#MP3
 <http://mappingQualityVocabulary/metrics#MP3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -125,7 +174,7 @@
 <http://mappingQualityVocabulary/metrics#MP3> <http://www.w3.org/2000/01/rdf-schema#comment> "The term type for a Predicate map must an rr:IRI."@en .
 <http://mappingQualityVocabulary/metrics#MP3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#MP3> <http://www.w3.org/2000/01/rdf-schema#label> "MP3"@en .
-<http://mappingQualityVocabulary/metrics#MP3> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#mappingConsistency> .
+<http://mappingQualityVocabulary/metrics#MP3> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#MappingConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#MP4
 <http://mappingQualityVocabulary/metrics#MP4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -133,7 +182,7 @@
 <http://mappingQualityVocabulary/metrics#MP4> <http://www.w3.org/2000/01/rdf-schema#comment> "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."@en .
 <http://mappingQualityVocabulary/metrics#MP4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#MP4> <http://www.w3.org/2000/01/rdf-schema#label> "MP4"@en .
-<http://mappingQualityVocabulary/metrics#MP4> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#mappingConsistency> .
+<http://mappingQualityVocabulary/metrics#MP4> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#MappingConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#MP5
 <http://mappingQualityVocabulary/metrics#MP5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -141,7 +190,7 @@
 <http://mappingQualityVocabulary/metrics#MP5> <http://www.w3.org/2000/01/rdf-schema#comment> "Subject definitions must be valid URIs unless its type is defined as blank node."@en .
 <http://mappingQualityVocabulary/metrics#MP5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#MP5> <http://www.w3.org/2000/01/rdf-schema#label> "MP5"@en .
-<http://mappingQualityVocabulary/metrics#MP5> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#mappingConsistency> .
+<http://mappingQualityVocabulary/metrics#MP5> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#MappingConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#MP6
 <http://mappingQualityVocabulary/metrics#MP6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -149,7 +198,7 @@
 <http://mappingQualityVocabulary/metrics#MP6> <http://www.w3.org/2000/01/rdf-schema#comment> "Valid language tags are defined as per RFC 5646 (BCP 47)."@en .
 <http://mappingQualityVocabulary/metrics#MP6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#MP6> <http://www.w3.org/2000/01/rdf-schema#label> "MP6"@en .
-<http://mappingQualityVocabulary/metrics#MP6> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#mappingConsistency> .
+<http://mappingQualityVocabulary/metrics#MP6> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#MappingConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#MP7
 <http://mappingQualityVocabulary/metrics#MP7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -157,7 +206,7 @@
 <http://mappingQualityVocabulary/metrics#MP7> <http://www.w3.org/2000/01/rdf-schema#comment> "A join condition must have a child column."@en .
 <http://mappingQualityVocabulary/metrics#MP7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#MP7> <http://www.w3.org/2000/01/rdf-schema#label> "MP7"@en .
-<http://mappingQualityVocabulary/metrics#MP7> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#mappingConsistency> .
+<http://mappingQualityVocabulary/metrics#MP7> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#MappingConsistency> .
 # 
 # http://mappingQualityVocabulary/metrics#MP8
 <http://mappingQualityVocabulary/metrics#MP8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -165,7 +214,41 @@
 <http://mappingQualityVocabulary/metrics#MP8> <http://www.w3.org/2000/01/rdf-schema#comment> "A join condition must have a parent column."@en .
 <http://mappingQualityVocabulary/metrics#MP8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#MP8> <http://www.w3.org/2000/01/rdf-schema#label> "MP8"@en .
-<http://mappingQualityVocabulary/metrics#MP8> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#mappingConsistency> .
+<http://mappingQualityVocabulary/metrics#MP8> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#MappingConsistency> .
+# 
+# http://mappingQualityVocabulary/metrics#MappingConsistency
+<http://mappingQualityVocabulary/metrics#MappingConsistency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#MappingConsistency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
+<http://mappingQualityVocabulary/metrics#MappingConsistency> <http://www.w3.org/2000/01/rdf-schema#comment> "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."@en .
+<http://mappingQualityVocabulary/metrics#MappingConsistency> <http://www.w3.org/2000/01/rdf-schema#label> "MappingConsistency"@en .
+<http://mappingQualityVocabulary/metrics#MappingConsistency> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#Intrinsic> .
+# 
+# http://mappingQualityVocabulary/metrics#Representational
+<http://mappingQualityVocabulary/metrics#Representational> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Representational> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Category> .
+<http://mappingQualityVocabulary/metrics#Representational> <http://www.w3.org/2000/01/rdf-schema#comment> "Representational category is concerned  with the  design  of  the data."@en .
+<http://mappingQualityVocabulary/metrics#Representational> <http://www.w3.org/2000/01/rdf-schema#label> "Representational"@en .
+# 
+# http://mappingQualityVocabulary/metrics#RepresentationalConciseness
+<http://mappingQualityVocabulary/metrics#RepresentationalConciseness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#RepresentationalConciseness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
+<http://mappingQualityVocabulary/metrics#RepresentationalConciseness> <http://www.w3.org/2000/01/rdf-schema#comment> "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."@en .
+<http://mappingQualityVocabulary/metrics#RepresentationalConciseness> <http://www.w3.org/2000/01/rdf-schema#label> "RepresentationalConciseness"@en .
+<http://mappingQualityVocabulary/metrics#RepresentationalConciseness> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#Representational> .
+# 
+# http://mappingQualityVocabulary/metrics#Trustworthiness
+<http://mappingQualityVocabulary/metrics#Trustworthiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Trustworthiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
+<http://mappingQualityVocabulary/metrics#Trustworthiness> <http://www.w3.org/2000/01/rdf-schema#comment> "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."@en .
+<http://mappingQualityVocabulary/metrics#Trustworthiness> <http://www.w3.org/2000/01/rdf-schema#label> "Trustworthiness"@en .
+<http://mappingQualityVocabulary/metrics#Trustworthiness> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#Contextual> .
+# 
+# http://mappingQualityVocabulary/metrics#Understandability
+<http://mappingQualityVocabulary/metrics#Understandability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappingQualityVocabulary/metrics#Understandability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
+<http://mappingQualityVocabulary/metrics#Understandability> <http://www.w3.org/2000/01/rdf-schema#comment> "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."@en .
+<http://mappingQualityVocabulary/metrics#Understandability> <http://www.w3.org/2000/01/rdf-schema#label> "Understandability"@en .
+<http://mappingQualityVocabulary/metrics#Understandability> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#Contextual> .
 # 
 # http://mappingQualityVocabulary/metrics#VOC1
 <http://mappingQualityVocabulary/metrics#VOC1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -173,7 +256,7 @@
 <http://mappingQualityVocabulary/metrics#VOC1> <http://www.w3.org/2000/01/rdf-schema#comment> "Humans consuming the information should be able to understand the Linked Data Resource."@en .
 <http://mappingQualityVocabulary/metrics#VOC1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#VOC1> <http://www.w3.org/2000/01/rdf-schema#label> "VOC1"@en .
-<http://mappingQualityVocabulary/metrics#VOC1> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#understandability> .
+<http://mappingQualityVocabulary/metrics#VOC1> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#Understandability> .
 # 
 # http://mappingQualityVocabulary/metrics#VOC2
 <http://mappingQualityVocabulary/metrics#VOC2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -181,7 +264,7 @@
 <http://mappingQualityVocabulary/metrics#VOC2> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumers need to understand where the data has originated."@en .
 <http://mappingQualityVocabulary/metrics#VOC2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#VOC2> <http://www.w3.org/2000/01/rdf-schema#label> "VOC2"@en .
-<http://mappingQualityVocabulary/metrics#VOC2> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#trustworthiness> .
+<http://mappingQualityVocabulary/metrics#VOC2> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#Trustworthiness> .
 # 
 # http://mappingQualityVocabulary/metrics#VOC3
 <http://mappingQualityVocabulary/metrics#VOC3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -189,7 +272,7 @@
 <http://mappingQualityVocabulary/metrics#VOC3> <http://www.w3.org/2000/01/rdf-schema#comment> "Allows the licensing information to be queried by machines."@en .
 <http://mappingQualityVocabulary/metrics#VOC3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#VOC3> <http://www.w3.org/2000/01/rdf-schema#label> "VOC3"@en .
-<http://mappingQualityVocabulary/metrics#VOC3> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#licensing> .
+<http://mappingQualityVocabulary/metrics#VOC3> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#Licensing> .
 # 
 # http://mappingQualityVocabulary/metrics#VOC4
 <http://mappingQualityVocabulary/metrics#VOC4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -197,7 +280,7 @@
 <http://mappingQualityVocabulary/metrics#VOC4> <http://www.w3.org/2000/01/rdf-schema#comment> "Allows humans to read and understand license in a textual format."@en .
 <http://mappingQualityVocabulary/metrics#VOC4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#VOC4> <http://www.w3.org/2000/01/rdf-schema#label> "VOC4"@en .
-<http://mappingQualityVocabulary/metrics#VOC4> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#licensing> .
+<http://mappingQualityVocabulary/metrics#VOC4> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#Licensing> .
 # 
 # http://mappingQualityVocabulary/metrics#VOC5
 <http://mappingQualityVocabulary/metrics#VOC5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -205,95 +288,12 @@
 <http://mappingQualityVocabulary/metrics#VOC5> <http://www.w3.org/2000/01/rdf-schema#comment> "Ensuring the resources are retrievable is one of the main principles of Linked Data."@en .
 <http://mappingQualityVocabulary/metrics#VOC5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://mappingQualityVocabulary/metrics#> .
 <http://mappingQualityVocabulary/metrics#VOC5> <http://www.w3.org/2000/01/rdf-schema#label> "VOC5"@en .
-<http://mappingQualityVocabulary/metrics#VOC5> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#availability> .
-# 
-# http://mappingQualityVocabulary/metrics#accessibility
-<http://mappingQualityVocabulary/metrics#accessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#accessibility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Category> .
-<http://mappingQualityVocabulary/metrics#accessibility> <http://www.w3.org/2000/01/rdf-schema#comment> "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data."@en .
-<http://mappingQualityVocabulary/metrics#accessibility> <http://www.w3.org/2000/01/rdf-schema#label> "Accessibility"@en .
-# 
-# http://mappingQualityVocabulary/metrics#availability
-<http://mappingQualityVocabulary/metrics#availability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#availability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
-<http://mappingQualityVocabulary/metrics#availability> <http://www.w3.org/2000/01/rdf-schema#comment> "Availability of a datasets the extent to which data (or some portion of it) is present, obtainable and ready for use."@en .
-<http://mappingQualityVocabulary/metrics#availability> <http://www.w3.org/2000/01/rdf-schema#label> "Availability"@en .
-<http://mappingQualityVocabulary/metrics#availability> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#accessibility> .
-# 
-# http://mappingQualityVocabulary/metrics#contextual
-<http://mappingQualityVocabulary/metrics#contextual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#contextual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Category> .
-<http://mappingQualityVocabulary/metrics#contextual> <http://www.w3.org/2000/01/rdf-schema#comment> "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."@en .
-<http://mappingQualityVocabulary/metrics#contextual> <http://www.w3.org/2000/01/rdf-schema#label> "Contextual"@en .
-# 
-# http://mappingQualityVocabulary/metrics#dataConsistency
-<http://mappingQualityVocabulary/metrics#dataConsistency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#dataConsistency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
-<http://mappingQualityVocabulary/metrics#dataConsistency> <http://www.w3.org/2000/01/rdf-schema#comment> "Data Consistency is the extent to which a dataset will be generated with no conflicting information."@en .
-<http://mappingQualityVocabulary/metrics#dataConsistency> <http://www.w3.org/2000/01/rdf-schema#label> "Data Consistency"@en .
-<http://mappingQualityVocabulary/metrics#dataConsistency> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#intrinsic> .
-# 
-# http://mappingQualityVocabulary/metrics#interpretability
-<http://mappingQualityVocabulary/metrics#interpretability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#interpretability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
-<http://mappingQualityVocabulary/metrics#interpretability> <http://www.w3.org/2000/01/rdf-schema#comment> "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."@en .
-<http://mappingQualityVocabulary/metrics#interpretability> <http://www.w3.org/2000/01/rdf-schema#label> "Interpretability"@en .
-<http://mappingQualityVocabulary/metrics#interpretability> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#representational> .
-# 
-# http://mappingQualityVocabulary/metrics#intrinsic
-<http://mappingQualityVocabulary/metrics#intrinsic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#intrinsic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Category> .
-<http://mappingQualityVocabulary/metrics#intrinsic> <http://www.w3.org/2000/01/rdf-schema#comment> "Intrinsic category contains the dimensions that are independent of the user’s context."@en .
-<http://mappingQualityVocabulary/metrics#intrinsic> <http://www.w3.org/2000/01/rdf-schema#label> "Intrinsic"@en .
-# 
-# http://mappingQualityVocabulary/metrics#licensing
-<http://mappingQualityVocabulary/metrics#licensing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#licensing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
-<http://mappingQualityVocabulary/metrics#licensing> <http://www.w3.org/2000/01/rdf-schema#comment> "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."@en .
-<http://mappingQualityVocabulary/metrics#licensing> <http://www.w3.org/2000/01/rdf-schema#label> "Licensing"@en .
-<http://mappingQualityVocabulary/metrics#licensing> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#accessibility> .
-# 
-# http://mappingQualityVocabulary/metrics#mappingConsistency
-<http://mappingQualityVocabulary/metrics#mappingConsistency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#mappingConsistency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
-<http://mappingQualityVocabulary/metrics#mappingConsistency> <http://www.w3.org/2000/01/rdf-schema#comment> "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."@en .
-<http://mappingQualityVocabulary/metrics#mappingConsistency> <http://www.w3.org/2000/01/rdf-schema#label> "Mapping Consistency"@en .
-<http://mappingQualityVocabulary/metrics#mappingConsistency> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#intrinsic> .
-# 
-# http://mappingQualityVocabulary/metrics#representational
-<http://mappingQualityVocabulary/metrics#representational> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#representational> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Category> .
-<http://mappingQualityVocabulary/metrics#representational> <http://www.w3.org/2000/01/rdf-schema#comment> "Representational category is concerned  with the  design  of  the data."@en .
-<http://mappingQualityVocabulary/metrics#representational> <http://www.w3.org/2000/01/rdf-schema#label> "Representational"@en .
-# 
-# http://mappingQualityVocabulary/metrics#representationalConciseness
-<http://mappingQualityVocabulary/metrics#representationalConciseness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#representationalConciseness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
-<http://mappingQualityVocabulary/metrics#representationalConciseness> <http://www.w3.org/2000/01/rdf-schema#comment> "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."@en .
-<http://mappingQualityVocabulary/metrics#representationalConciseness> <http://www.w3.org/2000/01/rdf-schema#label> "Representational Conciseness"@en .
-<http://mappingQualityVocabulary/metrics#representationalConciseness> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#representational> .
-# 
-# http://mappingQualityVocabulary/metrics#trustworthiness
-<http://mappingQualityVocabulary/metrics#trustworthiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#trustworthiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
-<http://mappingQualityVocabulary/metrics#trustworthiness> <http://www.w3.org/2000/01/rdf-schema#comment> "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."@en .
-<http://mappingQualityVocabulary/metrics#trustworthiness> <http://www.w3.org/2000/01/rdf-schema#label> "Trustworthiness"@en .
-<http://mappingQualityVocabulary/metrics#trustworthiness> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#contextual> .
-# 
-# http://mappingQualityVocabulary/metrics#understandability
-<http://mappingQualityVocabulary/metrics#understandability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://mappingQualityVocabulary/metrics#understandability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dqv#Dimension> .
-<http://mappingQualityVocabulary/metrics#understandability> <http://www.w3.org/2000/01/rdf-schema#comment> "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."@en .
-<http://mappingQualityVocabulary/metrics#understandability> <http://www.w3.org/2000/01/rdf-schema#label> "Understandability"@en .
-<http://mappingQualityVocabulary/metrics#understandability> <http://www.w3.org/ns/dqv#inCategory> <http://mappingQualityVocabulary/metrics#contextual> .
+<http://mappingQualityVocabulary/metrics#VOC5> <http://www.w3.org/ns/dqv#inDimension> <http://mappingQualityVocabulary/metrics#Availability> .
 # 
 # http://www.w3.org/ns/dqv#Category
-<http://www.w3.org/ns/dqv#Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/ns/dqv#Dimension
-<http://www.w3.org/ns/dqv#Dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/ns/dqv#Metric
-<http://www.w3.org/ns/dqv#Metric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
