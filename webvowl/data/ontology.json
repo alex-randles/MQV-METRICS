@@ -75,19 +75,19 @@
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
-    "type" : "owl:Class"
-  }, {
     "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "16",
     "type" : "owl:Class"
   }, {
     "id" : "31",
     "type" : "owl:Class"
   }, {
     "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
     "type" : "owl:Class"
   }, {
     "id" : "19",
@@ -105,13 +105,13 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "23",
+    "id" : "43",
     "type" : "owl:Class"
   }, {
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "43",
+    "id" : "23",
     "type" : "owl:Class"
   }, {
     "id" : "26",
@@ -337,33 +337,6 @@
     "id" : "13",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP7",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "MP7",
-      "en" : "MP7"
-    },
-    "comment" : {
-      "en" : "A join condition must have a child column."
-    },
-    "id" : "16",
-    "superClasses" : [ "7" ]
-  }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D3",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
@@ -391,7 +364,7 @@
     "id" : "15",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP8",
+    "iri" : "http://mappingQualityVocabulary/metrics#MP7",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
     "annotations" : {
@@ -409,13 +382,13 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "MP8",
-      "en" : "MP8"
+      "IRI-based" : "MP7",
+      "en" : "MP7"
     },
     "comment" : {
-      "en" : "A join condition must have a parent column."
+      "en" : "A join condition must have a child column."
     },
-    "id" : "18",
+    "id" : "16",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#trustworthiness",
@@ -464,6 +437,33 @@
       "en" : "Properties are considered undefined when it is not possible to dereference them against their namespace."
     },
     "id" : "17",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://mappingQualityVocabulary/metrics#MP8",
+    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MP8",
+      "en" : "MP8"
+    },
+    "comment" : {
+      "en" : "A join condition must have a parent column."
+    },
+    "id" : "18",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D1",
@@ -581,32 +581,26 @@
     "id" : "21",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP3",
+    "iri" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
     "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
+      "inCategory" : [ {
+        "identifier" : "inCategory",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
+        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "MP3",
-      "en" : "MP3"
+      "IRI-based" : "mappingConsistency",
+      "en" : "Mapping Consistency"
     },
     "comment" : {
-      "en" : "The term type for a Predicate map must an rr:IRI."
+      "en" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
     },
-    "id" : "23",
-    "superClasses" : [ "7" ]
+    "id" : "43",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D7",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -635,26 +629,32 @@
     "id" : "22",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
+    "iri" : "http://mappingQualityVocabulary/metrics#MP3",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
     "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
+        "value" : "http://mappingQualityVocabulary/metrics#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "mappingConsistency",
-      "en" : "Mapping Consistency"
+      "IRI-based" : "MP3",
+      "en" : "MP3"
     },
     "comment" : {
-      "en" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
+      "en" : "The term type for a Predicate map must an rr:IRI."
     },
-    "id" : "43",
-    "superClasses" : [ "2" ]
+    "id" : "23",
+    "superClasses" : [ "7" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#MP4",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -1044,162 +1044,162 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
     "range" : "2",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "32"
   }, {
     "range" : "2",
     "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "33"
   }, {
     "range" : "2",
     "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "35"
   }, {
     "range" : "2",
     "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "36"
   }, {
     "range" : "2",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "38"
   }, {
     "range" : "2",
     "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "40"
   }, {
     "range" : "6",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "41"
   }, {
     "range" : "6",
     "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "42"
   }, {
     "range" : "6",
     "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "44"
   }, {
     "range" : "6",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "45"
   }, {
     "range" : "7",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "46"
   }, {
     "range" : "7",
     "domain" : "25",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "47"
   }, {
     "range" : "7",
     "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "48"
   }, {
     "range" : "7",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "49"
   }, {
     "range" : "7",
     "domain" : "21",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "50"
   }, {
     "range" : "7",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "51"
   }, {
     "range" : "7",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "52"
   }, {
     "range" : "7",
     "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "53"
   }, {
     "range" : "7",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "54"
   }, {
     "range" : "7",
     "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "55"
   }, {
     "range" : "7",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "56"
   }, {
     "range" : "7",
     "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "57"
   }, {
     "range" : "7",
     "domain" : "12",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "58"
   }, {
     "range" : "7",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "59"
   }, {
     "range" : "7",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "60"
   }, {
     "range" : "7",
     "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "61"
   }, {
     "range" : "7",
     "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "62"
   }, {
     "range" : "7",
     "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "63"
   }, {
     "range" : "7",
     "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "64"
   }, {
     "range" : "7",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "65"
   }, {
     "range" : "2",
     "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "66"
   } ]
 }
