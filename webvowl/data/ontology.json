@@ -75,19 +75,19 @@
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
     "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
     "type" : "owl:Class"
   }, {
     "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
     "id" : "19",
@@ -105,19 +105,19 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "43",
+    "id" : "23",
     "type" : "owl:Class"
   }, {
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "25",
+    "id" : "43",
     "type" : "owl:Class"
   }, {
     "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
     "type" : "owl:Class"
   }, {
     "id" : "2",
@@ -129,10 +129,10 @@
     "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "37",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "37",
     "type" : "owl:Class"
   }, {
     "id" : "9",
@@ -337,33 +337,6 @@
     "id" : "13",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D3",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#dataConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "D3",
-      "en" : "D3"
-    },
-    "comment" : {
-      "en" : "The class type defined in the subject map does not  include the domain for this property."
-    },
-    "id" : "15",
-    "superClasses" : [ "7" ]
-  }, {
     "iri" : "http://mappingQualityVocabulary/metrics#MP7",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
@@ -391,7 +364,7 @@
     "id" : "16",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D2",
+    "iri" : "http://mappingQualityVocabulary/metrics#D3",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
     "annotations" : {
@@ -404,40 +377,19 @@
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#interpretability",
+        "value" : "http://mappingQualityVocabulary/metrics#dataConsistency",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "D2",
-      "en" : "D2"
+      "IRI-based" : "D3",
+      "en" : "D3"
     },
     "comment" : {
-      "en" : "Properties are considered undefined when it is not possible to dereference them against their namespace."
+      "en" : "The class type defined in the subject map does not  include the domain for this property."
     },
-    "id" : "17",
+    "id" : "15",
     "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#trustworthiness",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#contextual",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "trustworthiness",
-      "en" : "Trustworthiness"
-    },
-    "comment" : {
-      "en" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
-    },
-    "id" : "31",
-    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#MP8",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -464,6 +416,54 @@
       "en" : "A join condition must have a parent column."
     },
     "id" : "18",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://mappingQualityVocabulary/metrics#trustworthiness",
+    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#contextual",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "trustworthiness",
+      "en" : "Trustworthiness"
+    },
+    "comment" : {
+      "en" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
+    },
+    "id" : "31",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://mappingQualityVocabulary/metrics#D2",
+    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#interpretability",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "D2",
+      "en" : "D2"
+    },
+    "comment" : {
+      "en" : "Properties are considered undefined when it is not possible to dereference them against their namespace."
+    },
+    "id" : "17",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D1",
@@ -581,26 +581,32 @@
     "id" : "21",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
+    "iri" : "http://mappingQualityVocabulary/metrics#MP3",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
     "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
+        "value" : "http://mappingQualityVocabulary/metrics#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "mappingConsistency",
-      "en" : "Mapping Consistency"
+      "IRI-based" : "MP3",
+      "en" : "MP3"
     },
     "comment" : {
-      "en" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
+      "en" : "The term type for a Predicate map must an rr:IRI."
     },
-    "id" : "43",
-    "superClasses" : [ "2" ]
+    "id" : "23",
+    "superClasses" : [ "7" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D7",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
@@ -629,7 +635,28 @@
     "id" : "22",
     "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP3",
+    "iri" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
+    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mappingConsistency",
+      "en" : "Mapping Consistency"
+    },
+    "comment" : {
+      "en" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
+    },
+    "id" : "43",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://mappingQualityVocabulary/metrics#MP4",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
     "annotations" : {
@@ -647,13 +674,13 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "MP3",
-      "en" : "MP3"
+      "IRI-based" : "MP4",
+      "en" : "MP4"
     },
     "comment" : {
-      "en" : "The term type for a Predicate map must an rr:IRI."
+      "en" : "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."
     },
-    "id" : "23",
+    "id" : "26",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#D6",
@@ -681,33 +708,6 @@
       "en" : "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."
     },
     "id" : "25",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP4",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#mappingConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "MP4",
-      "en" : "MP4"
-    },
-    "comment" : {
-      "en" : "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."
-    },
-    "id" : "26",
     "superClasses" : [ "7" ]
   }, {
     "iri" : "http://www.w3.org/ns/dqv#Dimension",
@@ -746,27 +746,6 @@
     "id" : "30",
     "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#dataConsistency",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "dataConsistency",
-      "en" : "Data Consistency"
-    },
-    "comment" : {
-      "en" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
-    },
-    "id" : "37",
-    "superClasses" : [ "2" ]
-  }, {
     "iri" : "http://mappingQualityVocabulary/metrics#VOC3",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
     "instances" : 0,
@@ -793,6 +772,27 @@
     },
     "id" : "8",
     "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://mappingQualityVocabulary/metrics#dataConsistency",
+    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "http://mappingQualityVocabulary/metrics#intrinsic",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "dataConsistency",
+      "en" : "Data Consistency"
+    },
+    "comment" : {
+      "en" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
+    },
+    "id" : "37",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://mappingQualityVocabulary/metrics#VOC2",
     "baseIri" : "http://mappingQualityVocabulary/metrics",
