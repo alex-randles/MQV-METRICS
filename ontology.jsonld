@@ -20,598 +20,6 @@
     "@value" : "<http://mappingQualityVocabulary/metrics#>"
   } ]
 }, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Accessibility",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data "
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Accessibility"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Category"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Availability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Availability of a dataset <http://www.w3.org/ns/dqv#Metric>is the extent to which data (or some portion of it) is present, obtainable and ready for use."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Availability"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Accessibility"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Contextual",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Contextual"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Category"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#D1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Classes are considered undefined when it is not possible to dereference them against their namespace."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "D1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Interpretability"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#D2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Properties are considered undefined when it is not possible to dereference them against their namespace."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "D2"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Interpretability"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#D3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The class type defined in the subject map does not  include the domain for this property."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "D3"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#D4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "D4"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#RepresentationalConciseness"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#D5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Individuals of one class cannot be simultaneously members of another class."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "D5"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#D6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "D6"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#D7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The datatype assigned to the object does not match the datatype range for this property."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "D7"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#DataConsistency",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "DataConsistency"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Intrinsic"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Interpretability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Interpretability"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Representational"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Intrinsic",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Intrinsic category contains the dimensions that are independent of the user’s context."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Intrinsic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Category"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Licensing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Licensing"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Accessibility"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MP1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Objects maps with literal values may refer to only one datatype and no language tags."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MP1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MP2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The term type for a Subject map must be an rr:IRI or an rr:BlankNode."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MP2"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MP3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The term type for a Predicate map must an rr:IRI."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MP3"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MP4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MP4"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MP5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Subject definitions must be valid URIs unless its type is defined as blank node."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MP5"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MP6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Valid language tags are defined as per RFC 5646 (BCP 47)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MP6"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MP7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A join condition must have a child column."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MP7"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MP8",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A join condition must have a parent column."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MP8"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "MappingConsistency"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Intrinsic"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Representational",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Representational category is concerned  with the  design  of  the data."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Representational"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Category"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#RepresentationalConciseness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "RepresentationalConciseness"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Representational"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Trustworthiness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Trustworthiness"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Contextual"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#Understandability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Understandability"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Dimension"
-  } ],
-  "http://www.w3.org/ns/dqv#inCategory" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Contextual"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#VOC1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Humans consuming the information should be able to understand the Linked Data Resource."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "VOC1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Understandability"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#VOC2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Consumers need to understand where the data has originated."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "VOC2"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Trustworthiness"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#VOC3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Allows the licensing information to be queried by machines."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "VOC3"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Licensing"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#VOC4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Allows humans to read and understand license in a textual format."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "VOC4"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Licensing"
-  } ]
-}, {
-  "@id" : "http://mappingQualityVocabulary/metrics#VOC5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Ensuring the resources are retrievable is one of the main principles of Linked Data."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "VOC5"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/dqv#Metric"
-  } ],
-  "http://www.w3.org/ns/dqv#inDimension" : [ {
-    "@id" : "http://mappingQualityVocabulary/metrics#Availability"
-  } ]
-}, {
   "@id" : "http://purl.1122org/ontology/bibo/status",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -644,4 +52,596 @@
 }, {
   "@id" : "http://www.w3.org/ns/dqv#inDimension",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Accessibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accessibility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Category"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Availability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Availability of a dataset <http://www.w3.org/ns/dqv#Metric>is the extent to which data (or some portion of it) is present, obtainable and ready for use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Availability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Accessibility"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Contextual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contextual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Category"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#D1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Classes are considered undefined when it is not possible to dereference them against their namespace."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Interpretability"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#D2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Properties are considered undefined when it is not possible to dereference them against their namespace."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Interpretability"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#D3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class type defined in the subject map does not  include the domain for this property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#D4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#RepresentationalConciseness"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#D5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Individuals of one class cannot be simultaneously members of another class."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#D6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D6"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#D7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The datatype assigned to the object does not match the datatype range for this property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DataConsistency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Intrinsic"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Interpretability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interpretability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Representational"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Intrinsic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Intrinsic category contains the dimensions that are independent of the user’s context."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Intrinsic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Category"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Licensing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Licensing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Accessibility"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MP1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Objects maps with literal values may refer to only one datatype and no language tags."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MP1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MP2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The term type for a Subject map must be an rr:IRI or an rr:BlankNode."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MP2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MP3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The term type for a Predicate map must an rr:IRI."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MP3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MP4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MP4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MP5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Subject definitions must be valid URIs unless its type is defined as blank node."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MP5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MP6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Valid language tags are defined as per RFC 5646 (BCP 47)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MP6"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MP7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A join condition must have a child column."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MP7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MP8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A join condition must have a parent column."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MP8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MappingConsistency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Intrinsic"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Representational",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representational category is concerned  with the  design  of  the data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Representational"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Category"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#RepresentationalConciseness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RepresentationalConciseness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Representational"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Trustworthiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trustworthiness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Contextual"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#Understandability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Understandability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Dimension"
+  } ],
+  "http://www.w3.org/ns/dqv#inCategory" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Contextual"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#VOC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Humans consuming the information should be able to understand the Linked Data Resource."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VOC1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Understandability"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#VOC2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Consumers need to understand where the data has originated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VOC2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Trustworthiness"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#VOC3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Allows the licensing information to be queried by machines."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VOC3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Licensing"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#VOC4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Allows humans to read and understand license in a textual format."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VOC4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Licensing"
+  } ]
+}, {
+  "@id" : "https://alex-randles.github.io/MQV-METRICS/#VOC5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ensuring the resources are retrievable is one of the main principles of Linked Data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VOC5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/dqv#Metric"
+  } ],
+  "http://www.w3.org/ns/dqv#inDimension" : [ {
+    "@id" : "https://alex-randles.github.io/MQV-METRICS/#Availability"
+  } ]
 } ]

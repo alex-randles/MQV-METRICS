@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/dqv", "http://www.w3.org/2001/XMLSchema", "http://mappingQualityVocabulary/metrics" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "https://alex-randles.github.io/MQV-METRICS/", "http://www.w3.org/ns/dqv", "http://www.w3.org/2001/XMLSchema" ],
     "title" : {
       "undefined" : "Mapping Quality Vocabulary Metrics"
     },
@@ -20,16 +20,16 @@
         "value" : "mqv-metric",
         "type" : "label"
       } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "<http://mappingQualityVocabulary/metrics#>",
-        "type" : "label"
-      } ],
       "abstract" : [ {
         "identifier" : "abstract",
         "language" : "undefined",
         "value" : "The Mapping Quality Vocabulary (MQV) metrics represent the mapping quality metrics used by MQV.",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "<http://mappingQualityVocabulary/metrics#>",
         "type" : "label"
       } ],
       "title" : [ {
@@ -48,82 +48,19 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "3",
-    "type" : "owl:Class"
-  }, {
-    "id" : "8",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "12",
-    "type" : "owl:Class"
-  }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "16",
-    "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "29",
-    "type" : "owl:Class"
-  }, {
-    "id" : "18",
-    "type" : "owl:Class"
-  }, {
-    "id" : "19",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "21",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "24",
-    "type" : "owl:Class"
-  }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "27",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "38",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "45",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
     "id" : "9",
@@ -135,323 +72,102 @@
     "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "40",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
     "type" : "owl:Class"
   }, {
     "id" : "25",
     "type" : "owl:Class"
   }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
     "id" : "28",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "5",
+    "id" : "40",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.w3.org/ns/dqv#Category",
-    "baseIri" : "http://www.w3.org/ns/dqv",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Category"
-    },
-    "subClasses" : [ "4", "5", "6", "7" ],
-    "attributes" : [ "external" ],
-    "id" : "3"
-  }, {
-    "iri" : "http://www.w3.org/ns/dqv#Metric",
-    "baseIri" : "http://www.w3.org/ns/dqv",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Metric"
-    },
-    "subClasses" : [ "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28" ],
-    "attributes" : [ "external" ],
-    "id" : "8"
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP5",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MP1",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
         "type" : "iri"
       } ],
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "MP5",
-      "en" : "MP5"
-    },
-    "comment" : {
-      "en" : "Subject definitions must be valid URIs unless its type is defined as blank node."
-    },
-    "id" : "13",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D5",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#DataConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "D5",
-      "en" : "D5"
-    },
-    "comment" : {
-      "en" : "Individuals of one class cannot be simultaneously members of another class."
-    },
-    "id" : "12",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D4",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#RepresentationalConciseness",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "D4",
-      "en" : "D4"
-    },
-    "comment" : {
-      "en" : "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."
-    },
-    "id" : "14",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP6",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "MP6",
-      "en" : "MP6"
-    },
-    "comment" : {
-      "en" : "Valid language tags are defined as per RFC 5646 (BCP 47)."
-    },
-    "id" : "15",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D3",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#DataConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "D3",
-      "en" : "D3"
-    },
-    "comment" : {
-      "en" : "The class type defined in the subject map does not  include the domain for this property."
-    },
-    "id" : "16",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP7",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "MP7",
-      "en" : "MP7"
-    },
-    "comment" : {
-      "en" : "A join condition must have a child column."
-    },
-    "id" : "17",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#DataConsistency",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Intrinsic",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "DataConsistency",
-      "en" : "DataConsistency"
-    },
-    "comment" : {
-      "en" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
-    },
-    "id" : "29",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D2",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Interpretability",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "D2",
-      "en" : "D2"
-    },
-    "comment" : {
-      "en" : "Properties are considered undefined when it is not possible to dereference them against their namespace."
-    },
-    "id" : "18",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP8",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "MP8",
-      "en" : "MP8"
-    },
-    "comment" : {
-      "en" : "A join condition must have a parent column."
-    },
-    "id" : "19",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D1",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Interpretability",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "D1",
-      "en" : "D1"
-    },
-    "comment" : {
-      "en" : "Classes are considered undefined when it is not possible to dereference them against their namespace."
-    },
-    "id" : "20",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP1",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
         "type" : "iri"
       } ]
     },
@@ -462,152 +178,158 @@
     "comment" : {
       "en" : "Objects maps with literal values may refer to only one datatype and no language tags."
     },
-    "id" : "21",
-    "superClasses" : [ "8" ]
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP2",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#D1",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
         "type" : "iri"
       } ],
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Interpretability",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "MP2",
-      "en" : "MP2"
+      "IRI-based" : "D1",
+      "en" : "D1"
     },
     "comment" : {
-      "en" : "The term type for a Subject map must be an rr:IRI or an rr:BlankNode."
+      "en" : "Classes are considered undefined when it is not possible to dereference them against their namespace."
     },
-    "id" : "22",
-    "superClasses" : [ "8" ]
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Licensing",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "inCategory" : [ {
         "identifier" : "inCategory",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Accessibility",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Intrinsic",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "Licensing",
-      "en" : "Licensing"
+      "IRI-based" : "DataConsistency",
+      "en" : "DataConsistency"
     },
     "comment" : {
-      "en" : "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."
+      "en" : "Data Consistency is the extent to which a dataset will be generated with no conflicting information."
     },
-    "id" : "1",
-    "superClasses" : [ "2" ]
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP3",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#D2",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
         "type" : "iri"
       } ],
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Interpretability",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "MP3",
-      "en" : "MP3"
+      "IRI-based" : "D2",
+      "en" : "D2"
     },
     "comment" : {
-      "en" : "The term type for a Predicate map must an rr:IRI."
+      "en" : "Properties are considered undefined when it is not possible to dereference them against their namespace."
     },
-    "id" : "24",
-    "superClasses" : [ "8" ]
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D7",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MP5",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
         "type" : "iri"
       } ],
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#DataConsistency",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "D7",
-      "en" : "D7"
+      "IRI-based" : "MP5",
+      "en" : "MP5"
     },
     "comment" : {
-      "en" : "The datatype assigned to the object does not match the datatype range for this property."
+      "en" : "Subject definitions must be valid URIs unless its type is defined as blank node."
     },
-    "id" : "23",
-    "superClasses" : [ "8" ]
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#D6",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#D5",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
         "type" : "iri"
       } ],
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#DataConsistency",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "D6",
-      "en" : "D6"
+      "IRI-based" : "D5",
+      "en" : "D5"
     },
     "comment" : {
-      "en" : "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."
+      "en" : "Individuals of one class cannot be simultaneously members of another class."
     },
-    "id" : "26",
-    "superClasses" : [ "8" ]
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MP4",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MP4",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
         "type" : "iri"
       } ],
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
         "type" : "iri"
       } ]
     },
@@ -618,89 +340,284 @@
     "comment" : {
       "en" : "The term type for an object map must be an rr:IRI, rr:Literal or a rr:BlankNode."
     },
-    "id" : "27",
-    "superClasses" : [ "8" ]
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Trustworthiness",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#D6",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Contextual",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "Trustworthiness",
-      "en" : "Trustworthiness"
+      "IRI-based" : "D6",
+      "en" : "D6"
     },
     "comment" : {
-      "en" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
+      "en" : "The term type for this property does not match the range. If the range is a Literal, the term type should be a Literal, otherwise IRI."
     },
-    "id" : "33",
-    "superClasses" : [ "2" ]
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Accessibility",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#D3",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency",
+        "type" : "iri"
+      } ]
+    },
     "label" : {
-      "IRI-based" : "Accessibility",
-      "en" : "Accessibility"
+      "IRI-based" : "D3",
+      "en" : "D3"
     },
     "comment" : {
-      "en" : "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data "
+      "en" : "The class type defined in the subject map does not  include the domain for this property."
     },
-    "id" : "4",
-    "superClasses" : [ "3" ]
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://www.w3.org/ns/dqv#Dimension",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MP3",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MP3",
+      "en" : "MP3"
+    },
+    "comment" : {
+      "en" : "The term type for a Predicate map must an rr:IRI."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MP2",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MP2",
+      "en" : "MP2"
+    },
+    "comment" : {
+      "en" : "The term type for a Subject map must be an rr:IRI or an rr:BlankNode."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#D4",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#RepresentationalConciseness",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "D4",
+      "en" : "D4"
+    },
+    "comment" : {
+      "en" : "The use of query parameters is not parameters in recommended by the W3C best practices for URIs."
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MP8",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MP8",
+      "en" : "MP8"
+    },
+    "comment" : {
+      "en" : "A join condition must have a parent column."
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#D7",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#DataConsistency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "D7",
+      "en" : "D7"
+    },
+    "comment" : {
+      "en" : "The datatype assigned to the object does not match the datatype range for this property."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MP7",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MP7",
+      "en" : "MP7"
+    },
+    "comment" : {
+      "en" : "A join condition must have a child column."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MP6",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MP6",
+      "en" : "MP6"
+    },
+    "comment" : {
+      "en" : "Valid language tags are defined as per RFC 5646 (BCP 47)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/dqv#Metric",
     "baseIri" : "http://www.w3.org/ns/dqv",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Dimension"
+      "IRI-based" : "Metric"
     },
-    "subClasses" : [ "29", "35", "40", "38", "33", "31", "1", "45" ],
+    "subClasses" : [ "2", "0", "5", "9", "8", "11", "10", "12", "13", "15", "14", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
     "attributes" : [ "external" ],
-    "id" : "2"
+    "id" : "1"
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Intrinsic",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "http://www.w3.org/ns/dqv#Category",
+    "baseIri" : "http://www.w3.org/ns/dqv",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Intrinsic",
-      "en" : "Intrinsic"
+      "IRI-based" : "Category"
     },
-    "comment" : {
-      "en" : "Intrinsic category contains the dimensions that are independent of the user’s context."
-    },
-    "id" : "6",
-    "superClasses" : [ "3" ]
+    "subClasses" : [ "26", "27", "28", "29" ],
+    "attributes" : [ "external" ],
+    "id" : "25"
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Interpretability",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Representational",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Interpretability",
-      "en" : "Interpretability"
-    },
-    "comment" : {
-      "en" : "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."
-    },
-    "id" : "38",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Contextual",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Contextual",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Contextual",
@@ -709,17 +626,78 @@
     "comment" : {
       "en" : "The contextual category groups dimensions and  metrics  highly  depend on  the  context  of the task  at hand."
     },
-    "id" : "7",
-    "superClasses" : [ "3" ]
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "25" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#RepresentationalConciseness",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Intrinsic",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Intrinsic",
+      "en" : "Intrinsic"
+    },
+    "comment" : {
+      "en" : "Intrinsic category contains the dimensions that are independent of the user’s context."
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/dqv#Dimension",
+    "baseIri" : "http://www.w3.org/ns/dqv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dimension"
+    },
+    "subClasses" : [ "36", "3", "40", "38", "33", "31", "7", "45" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Licensing",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "inCategory" : [ {
         "identifier" : "inCategory",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Representational",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Accessibility",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Licensing",
+      "en" : "Licensing"
+    },
+    "comment" : {
+      "en" : "Licensing refers to the license under which a mapping and its resulting dataset can be (re) used."
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Accessibility",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Accessibility",
+      "en" : "Accessibility"
+    },
+    "comment" : {
+      "en" : "The accessibility category groups dimensions and metrics related to the access, authenticity and retrieval of data "
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#RepresentationalConciseness",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Representational",
         "type" : "iri"
       } ]
     },
@@ -730,119 +708,18 @@
     "comment" : {
       "en" : "Representational Conciseness refers to the representational of the resulting dataset being compact, well-formatted, and clear."
     },
-    "id" : "45",
-    "superClasses" : [ "2" ]
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "4" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#VOC3",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Licensing",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "VOC3",
-      "en" : "VOC3"
-    },
-    "comment" : {
-      "en" : "Allows the licensing information to be queried by machines."
-    },
-    "id" : "9",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#VOC2",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Trustworthiness",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "VOC2",
-      "en" : "VOC2"
-    },
-    "comment" : {
-      "en" : "Consumers need to understand where the data has originated."
-    },
-    "id" : "10",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#VOC1",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
-        "type" : "iri"
-      } ],
-      "inDimension" : [ {
-        "identifier" : "inDimension",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Understandability",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "VOC1",
-      "en" : "VOC1"
-    },
-    "comment" : {
-      "en" : "Humans consuming the information should be able to understand the Linked Data Resource."
-    },
-    "id" : "11",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Availability",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Understandability",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "inCategory" : [ {
         "identifier" : "inCategory",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Accessibility",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Availability",
-      "en" : "Availability"
-    },
-    "comment" : {
-      "en" : "Availability of a dataset <http://www.w3.org/ns/dqv#Metric>is the extent to which data (or some portion of it) is present, obtainable and ready for use."
-    },
-    "id" : "40",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Understandability",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "annotations" : {
-      "inCategory" : [ {
-        "identifier" : "inCategory",
-        "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Contextual",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Contextual",
         "type" : "iri"
       } ]
     },
@@ -853,23 +730,46 @@
     "comment" : {
       "en" : "Understandability is concerned with human-readable information being provided to mappings and the resources being generated such that data producers and consumers are able to understand them."
     },
-    "id" : "31",
-    "superClasses" : [ "2" ]
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "4" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#VOC5",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Interpretability",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Representational",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Interpretability",
+      "en" : "Interpretability"
+    },
+    "comment" : {
+      "en" : "Interpretability is concerned to information being represented in an appropriate notation, and whether it is machine-processable."
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#VOC5",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
         "type" : "iri"
       } ],
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Availability",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Availability",
         "type" : "iri"
       } ]
     },
@@ -880,23 +780,68 @@
     "comment" : {
       "en" : "Ensuring the resources are retrievable is one of the main principles of Linked Data."
     },
-    "id" : "25",
-    "superClasses" : [ "8" ]
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#VOC4",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Availability",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Accessibility",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Availability",
+      "en" : "Availability"
+    },
+    "comment" : {
+      "en" : "Availability of a dataset <http://www.w3.org/ns/dqv#Metric>is the extent to which data (or some portion of it) is present, obtainable and ready for use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Trustworthiness",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "inCategory" : [ {
+        "identifier" : "inCategory",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Contextual",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Trustworthiness",
+      "en" : "Trustworthiness"
+    },
+    "comment" : {
+      "en" : "Trustworthiness is the extent to which data producers involved in the mapping process believe that the information in those mappings is 'true'."
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#VOC4",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
         "type" : "iri"
       } ],
       "inDimension" : [ {
         "identifier" : "inDimension",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Licensing",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Licensing",
         "type" : "iri"
       } ]
     },
@@ -907,17 +852,116 @@
     "comment" : {
       "en" : "Allows humans to read and understand license in a textual format."
     },
-    "id" : "28",
-    "superClasses" : [ "8" ]
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#MappingConsistency",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#VOC3",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Licensing",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VOC3",
+      "en" : "VOC3"
+    },
+    "comment" : {
+      "en" : "Allows the licensing information to be queried by machines."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#VOC2",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Trustworthiness",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VOC2",
+      "en" : "VOC2"
+    },
+    "comment" : {
+      "en" : "Consumers need to understand where the data has originated."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#VOC1",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#",
+        "type" : "iri"
+      } ],
+      "inDimension" : [ {
+        "identifier" : "inDimension",
+        "language" : "undefined",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Understandability",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VOC1",
+      "en" : "VOC1"
+    },
+    "comment" : {
+      "en" : "Humans consuming the information should be able to understand the Linked Data Resource."
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#Representational",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Representational",
+      "en" : "Representational"
+    },
+    "comment" : {
+      "en" : "Representational category is concerned  with the  design  of  the data."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://alex-randles.github.io/MQV-METRICS/#MappingConsistency",
+    "baseIri" : "https://alex-randles.github.io/MQV-METRICS/",
     "instances" : 0,
     "annotations" : {
       "inCategory" : [ {
         "identifier" : "inCategory",
         "language" : "undefined",
-        "value" : "http://mappingQualityVocabulary/metrics#Intrinsic",
+        "value" : "https://alex-randles.github.io/MQV-METRICS/#Intrinsic",
         "type" : "iri"
       } ]
     },
@@ -928,24 +972,12 @@
     "comment" : {
       "en" : "Mapping Consistency is the extent to which a mapping is conformant to its mapping language."
     },
-    "id" : "35",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://mappingQualityVocabulary/metrics#Representational",
-    "baseIri" : "http://mappingQualityVocabulary/metrics",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Representational",
-      "en" : "Representational"
-    },
-    "comment" : {
-      "en" : "Representational category is concerned  with the  design  of  the data."
-    },
-    "id" : "5",
-    "superClasses" : [ "3" ]
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "4" ]
   } ],
   "property" : [ {
-    "id" : "0",
+    "id" : "6",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "30",
@@ -957,7 +989,7 @@
     "id" : "34",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "36",
+    "id" : "35",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "37",
@@ -1042,162 +1074,162 @@
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "range" : "2",
-    "domain" : "1",
+    "range" : "4",
+    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "0"
+    "id" : "6"
   }, {
-    "range" : "2",
+    "range" : "4",
     "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "30"
   }, {
-    "range" : "2",
+    "range" : "4",
     "domain" : "33",
     "attributes" : [ "object", "anonymous" ],
     "id" : "32"
   }, {
-    "range" : "2",
-    "domain" : "35",
+    "range" : "4",
+    "domain" : "3",
     "attributes" : [ "object", "anonymous" ],
     "id" : "34"
   }, {
-    "range" : "2",
-    "domain" : "29",
+    "range" : "4",
+    "domain" : "36",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "36"
+    "id" : "35"
   }, {
-    "range" : "2",
+    "range" : "4",
     "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "37"
   }, {
-    "range" : "2",
+    "range" : "4",
     "domain" : "40",
     "attributes" : [ "object", "anonymous" ],
     "id" : "39"
   }, {
-    "range" : "8",
-    "domain" : "26",
+    "range" : "25",
+    "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
     "id" : "41"
   }, {
-    "range" : "8",
-    "domain" : "25",
+    "range" : "25",
+    "domain" : "26",
     "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
-    "range" : "8",
-    "domain" : "28",
+    "range" : "25",
+    "domain" : "29",
     "attributes" : [ "object", "anonymous" ],
     "id" : "43"
   }, {
-    "range" : "8",
-    "domain" : "27",
+    "range" : "25",
+    "domain" : "28",
     "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "23",
     "attributes" : [ "object", "anonymous" ],
     "id" : "46"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "22",
     "attributes" : [ "object", "anonymous" ],
     "id" : "47"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "24",
     "attributes" : [ "object", "anonymous" ],
     "id" : "48"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "19",
     "attributes" : [ "object", "anonymous" ],
     "id" : "49"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "18",
     "attributes" : [ "object", "anonymous" ],
     "id" : "50"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "51"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "20",
     "attributes" : [ "object", "anonymous" ],
     "id" : "52"
   }, {
-    "range" : "8",
-    "domain" : "15",
+    "range" : "1",
+    "domain" : "14",
     "attributes" : [ "object", "anonymous" ],
     "id" : "53"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "16",
     "attributes" : [ "object", "anonymous" ],
     "id" : "55"
   }, {
-    "range" : "3",
-    "domain" : "6",
+    "range" : "1",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "56"
   }, {
-    "range" : "3",
-    "domain" : "7",
+    "range" : "1",
+    "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
     "id" : "57"
   }, {
-    "range" : "8",
-    "domain" : "9",
+    "range" : "1",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "58"
   }, {
-    "range" : "8",
-    "domain" : "10",
+    "range" : "1",
+    "domain" : "11",
     "attributes" : [ "object", "anonymous" ],
     "id" : "59"
   }, {
-    "range" : "8",
-    "domain" : "11",
+    "range" : "1",
+    "domain" : "10",
     "attributes" : [ "object", "anonymous" ],
     "id" : "60"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "12",
     "attributes" : [ "object", "anonymous" ],
     "id" : "61"
   }, {
-    "range" : "8",
+    "range" : "1",
     "domain" : "13",
     "attributes" : [ "object", "anonymous" ],
     "id" : "62"
   }, {
-    "range" : "8",
-    "domain" : "14",
+    "range" : "1",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "63"
   }, {
-    "range" : "3",
-    "domain" : "4",
+    "range" : "1",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "64"
   }, {
-    "range" : "3",
-    "domain" : "5",
+    "range" : "1",
+    "domain" : "0",
     "attributes" : [ "object", "anonymous" ],
     "id" : "65"
   }, {
-    "range" : "2",
+    "range" : "4",
     "domain" : "45",
     "attributes" : [ "object", "anonymous" ],
     "id" : "66"
